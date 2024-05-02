@@ -171,7 +171,7 @@ namespace Capolavoro
             if (int.TryParse(StatRimbalziOff.Text, out int valoreAttuale))
             {
                 // Aumenta il valore del label di 1
-                valoreAttuale++;
+                valoreAttuale--;
 
                 // Aggiorna il testo del label con il nuovo valore
                 StatRimbalziOff.Text = valoreAttuale.ToString();
@@ -179,7 +179,248 @@ namespace Capolavoro
         }
         #endregion
 
-        #region
+        #region Difensivi
+        private void MenoRimbalziDiff_Click(object sender, EventArgs e)
+        {
+            DiminuisciValoreRimbalziDiff();
+        }
+
+        private void PiuRimbalziDiff_Click(object sender, EventArgs e)
+        {
+            AumentaValoreRimbalziDiff();
+        }
+
+        private void AumentaValoreRimbalziDiff()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatRimbalziDiff.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatRimbalziDiff.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void DiminuisciValoreRimbalziDiff()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatRimbalziDiff.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatRimbalziDiff.Text = valoreAttuale.ToString();
+            }
+        }
+        #endregion
+
+        #endregion
+
+        #region Tiri
+
+        #region Tiri dal campo
+
+        #region Tiri da 2 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DiminuisciValoreTiriDue();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            AumentaValoreTiriDue();
+        }
+
+        private void AumentaValoreTiriDue()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatTiriDue.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatTiriDue.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void DiminuisciValoreTiriDue()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatTiriDue.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatTiriDue.Text = valoreAttuale.ToString();
+            }
+        }
+        #endregion
+
+        #region Tiri da 3 
+
+        private void MenoTiriTre_Click(object sender, EventArgs e)
+        {
+            DiminuisciValoreTiriTre();
+        }
+
+        private void PiuTiriTre_Click(object sender, EventArgs e)
+        {
+            AumentaValoreTiriTre();
+        }
+
+        private void AumentaValoreTiriTre()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatTiriTre.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatTiriTre.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void DiminuisciValoreTiriTre()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatTiriTre.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatTiriTre.Text = valoreAttuale.ToString();
+            }
+        }
+        #endregion
+
+        #region Tiri segnati 
+
+        private void MenoTiriTentati_Click(object sender, EventArgs e)
+        {
+            DiminuisciValoreTiriSegnati();
+        }
+
+        private void PiùTiriTentati_Click(object sender, EventArgs e)
+        {
+            AumentaValoreTiriSegnati();
+        }
+
+        private void DiminuisciValoreTiriSegnati()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatTiriSegnati.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatTiriSegnati.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void AumentaValoreTiriSegnati()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatTiriSegnati.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatTiriSegnati.Text = valoreAttuale.ToString();
+            }
+        }
+
+        #endregion
+
+        #endregion
+
+        #region Tiri lIberi
+
+        #region Tiri Totali
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            DiminuisciValoreTiriLiberiTotali();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AumentaValoreTiriLiberiTotali();
+        }
+
+        private void DiminuisciValoreTiriLiberiTotali()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatLiberiTotali.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatLiberiTotali.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void AumentaValoreTiriLiberiTotali()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatLiberiTotali.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatLiberiTotali.Text = valoreAttuale.ToString();
+            }
+        }
+        #endregion
+
+        #region Tiri segnati
+
+        private void PiuLiberiSegnati_Click(object sender, EventArgs e)
+        {
+            AumentaValoreTiriLiberiSegnati();
+        }
+
+        private void MenoLiberiSegnati_Click(object sender, EventArgs e)
+        {
+            DiminuisciValoreTiriLiberiSegnati();
+        }
+
+        private void DiminuisciValoreTiriLiberiSegnati()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatLiberiSegnati.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatLiberiSegnati.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void AumentaValoreTiriLiberiSegnati()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatLiberiSegnati.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatLiberiSegnati.Text = valoreAttuale.ToString();
+            }
+        }
+        #endregion
 
         #endregion
 
@@ -201,5 +442,12 @@ namespace Capolavoro
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
