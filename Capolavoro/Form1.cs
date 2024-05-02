@@ -424,6 +424,10 @@ namespace Capolavoro
 
         #endregion
 
+        #region Tiri totali 
+
+        #endregion
+
         #endregion
 
         private void TiriSegnati_Click(object sender, EventArgs e)

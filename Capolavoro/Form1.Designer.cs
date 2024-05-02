@@ -75,6 +75,15 @@
             this.MenoLiberiSegnati = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.StatTiriTotali = new System.Windows.Forms.Label();
+            this.StatFalli = new System.Windows.Forms.Label();
+            this.PiuFalli = new System.Windows.Forms.Button();
+            this.MenoFalli = new System.Windows.Forms.Button();
+            this.StatPalleRubate = new System.Windows.Forms.Label();
+            this.PiùPalleRubate = new System.Windows.Forms.Button();
+            this.MenoPalleRubate = new System.Windows.Forms.Button();
+            this.StatPallePerse = new System.Windows.Forms.Label();
+            this.PiùPallePerse = new System.Windows.Forms.Button();
+            this.MenoPallePerse = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Punti
@@ -152,7 +161,7 @@
             // 
             this.NFalli.AutoSize = true;
             this.NFalli.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NFalli.Location = new System.Drawing.Point(411, 269);
+            this.NFalli.Location = new System.Drawing.Point(402, 269);
             this.NFalli.Name = "NFalli";
             this.NFalli.Size = new System.Drawing.Size(52, 25);
             this.NFalli.TabIndex = 7;
@@ -553,12 +562,105 @@
             this.StatTiriTotali.TabIndex = 47;
             this.StatTiriTotali.Text = "0";
             // 
+            // StatFalli
+            // 
+            this.StatFalli.AutoSize = true;
+            this.StatFalli.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatFalli.Location = new System.Drawing.Point(492, 269);
+            this.StatFalli.Name = "StatFalli";
+            this.StatFalli.Size = new System.Drawing.Size(23, 25);
+            this.StatFalli.TabIndex = 50;
+            this.StatFalli.Text = "0";
+            // 
+            // PiuFalli
+            // 
+            this.PiuFalli.Location = new System.Drawing.Point(521, 269);
+            this.PiuFalli.Name = "PiuFalli";
+            this.PiuFalli.Size = new System.Drawing.Size(27, 25);
+            this.PiuFalli.TabIndex = 49;
+            this.PiuFalli.Text = "+1";
+            this.PiuFalli.UseVisualStyleBackColor = true;
+            // 
+            // MenoFalli
+            // 
+            this.MenoFalli.Location = new System.Drawing.Point(459, 269);
+            this.MenoFalli.Name = "MenoFalli";
+            this.MenoFalli.Size = new System.Drawing.Size(27, 25);
+            this.MenoFalli.TabIndex = 48;
+            this.MenoFalli.Text = "-1";
+            this.MenoFalli.UseVisualStyleBackColor = true;
+            // 
+            // StatPalleRubate
+            // 
+            this.StatPalleRubate.AutoSize = true;
+            this.StatPalleRubate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatPalleRubate.Location = new System.Drawing.Point(234, 269);
+            this.StatPalleRubate.Name = "StatPalleRubate";
+            this.StatPalleRubate.Size = new System.Drawing.Size(23, 25);
+            this.StatPalleRubate.TabIndex = 53;
+            this.StatPalleRubate.Text = "0";
+            // 
+            // PiùPalleRubate
+            // 
+            this.PiùPalleRubate.Location = new System.Drawing.Point(263, 269);
+            this.PiùPalleRubate.Name = "PiùPalleRubate";
+            this.PiùPalleRubate.Size = new System.Drawing.Size(27, 25);
+            this.PiùPalleRubate.TabIndex = 52;
+            this.PiùPalleRubate.Text = "+1";
+            this.PiùPalleRubate.UseVisualStyleBackColor = true;
+            // 
+            // MenoPalleRubate
+            // 
+            this.MenoPalleRubate.Location = new System.Drawing.Point(201, 269);
+            this.MenoPalleRubate.Name = "MenoPalleRubate";
+            this.MenoPalleRubate.Size = new System.Drawing.Size(27, 25);
+            this.MenoPalleRubate.TabIndex = 51;
+            this.MenoPalleRubate.Text = "-1";
+            this.MenoPalleRubate.UseVisualStyleBackColor = true;
+            // 
+            // StatPallePerse
+            // 
+            this.StatPallePerse.AutoSize = true;
+            this.StatPallePerse.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatPallePerse.Location = new System.Drawing.Point(234, 304);
+            this.StatPallePerse.Name = "StatPallePerse";
+            this.StatPallePerse.Size = new System.Drawing.Size(23, 25);
+            this.StatPallePerse.TabIndex = 56;
+            this.StatPallePerse.Text = "0";
+            // 
+            // PiùPallePerse
+            // 
+            this.PiùPallePerse.Location = new System.Drawing.Point(263, 304);
+            this.PiùPallePerse.Name = "PiùPallePerse";
+            this.PiùPallePerse.Size = new System.Drawing.Size(27, 25);
+            this.PiùPallePerse.TabIndex = 55;
+            this.PiùPallePerse.Text = "+1";
+            this.PiùPallePerse.UseVisualStyleBackColor = true;
+            // 
+            // MenoPallePerse
+            // 
+            this.MenoPallePerse.Location = new System.Drawing.Point(201, 304);
+            this.MenoPallePerse.Name = "MenoPallePerse";
+            this.MenoPallePerse.Size = new System.Drawing.Size(27, 25);
+            this.MenoPallePerse.TabIndex = 54;
+            this.MenoPallePerse.Text = "-1";
+            this.MenoPallePerse.UseVisualStyleBackColor = true;
+            // 
             // Duepunti
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(876, 450);
+            this.Controls.Add(this.StatPallePerse);
+            this.Controls.Add(this.PiùPallePerse);
+            this.Controls.Add(this.MenoPallePerse);
+            this.Controls.Add(this.StatPalleRubate);
+            this.Controls.Add(this.PiùPalleRubate);
+            this.Controls.Add(this.MenoPalleRubate);
+            this.Controls.Add(this.StatFalli);
+            this.Controls.Add(this.PiuFalli);
+            this.Controls.Add(this.MenoFalli);
             this.Controls.Add(this.StatTiriTotali);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.StatLiberiSegnati);
@@ -606,6 +708,7 @@
             this.Controls.Add(this.Rimbalzi);
             this.Controls.Add(this.Assist);
             this.Controls.Add(this.Punti);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "Duepunti";
             this.Text = "LeBomboclat";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -663,6 +766,15 @@
         private System.Windows.Forms.Button MenoLiberiSegnati;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label StatTiriTotali;
+        private System.Windows.Forms.Label StatFalli;
+        private System.Windows.Forms.Button PiuFalli;
+        private System.Windows.Forms.Button MenoFalli;
+        private System.Windows.Forms.Label StatPalleRubate;
+        private System.Windows.Forms.Button PiùPalleRubate;
+        private System.Windows.Forms.Button MenoPalleRubate;
+        private System.Windows.Forms.Label StatPallePerse;
+        private System.Windows.Forms.Button PiùPallePerse;
+        private System.Windows.Forms.Button MenoPallePerse;
     }
 }
 
