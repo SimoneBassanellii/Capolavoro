@@ -19,7 +19,7 @@ namespace Capolavoro
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+             
         }
         
         #region Punti
@@ -139,6 +139,51 @@ namespace Capolavoro
         }
         #endregion
 
+        #region Rimbalzi
+
+        #region Offensivi 
+        private void MenoRimbalzi_Click(object sender, EventArgs e)
+        {
+            DiminuisciValoreRimbalziOff();
+        }
+
+        private void PiuRimbalzi_Click(object sender, EventArgs e)
+        {
+            AumentaValoreRimbalziOff();
+        }
+
+        private void AumentaValoreRimbalziOff()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatRimbalziOff.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatRimbalziOff.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void DiminuisciValoreRimbalziOff()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatRimbalziOff.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatRimbalziOff.Text = valoreAttuale.ToString();
+            }
+        }
+        #endregion
+
+        #region
+
+        #endregion
+
+        #endregion
 
         private void TiriSegnati_Click(object sender, EventArgs e)
         {
@@ -150,6 +195,11 @@ namespace Capolavoro
 
         }
 
-        
+       
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
