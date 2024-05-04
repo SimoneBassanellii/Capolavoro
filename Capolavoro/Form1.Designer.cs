@@ -89,7 +89,9 @@
             // Punti
             // 
             this.Punti.AutoSize = true;
+            this.Punti.BackColor = System.Drawing.Color.Transparent;
             this.Punti.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Punti.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Punti.Location = new System.Drawing.Point(74, 42);
             this.Punti.Name = "Punti";
             this.Punti.Size = new System.Drawing.Size(56, 25);
@@ -99,7 +101,9 @@
             // Assist
             // 
             this.Assist.AutoSize = true;
+            this.Assist.BackColor = System.Drawing.Color.Transparent;
             this.Assist.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Assist.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Assist.Location = new System.Drawing.Point(74, 79);
             this.Assist.Name = "Assist";
             this.Assist.Size = new System.Drawing.Size(65, 25);
@@ -109,7 +113,9 @@
             // Rimbalzi
             // 
             this.Rimbalzi.AutoSize = true;
+            this.Rimbalzi.BackColor = System.Drawing.Color.Transparent;
             this.Rimbalzi.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Rimbalzi.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Rimbalzi.Location = new System.Drawing.Point(74, 137);
             this.Rimbalzi.Name = "Rimbalzi";
             this.Rimbalzi.Size = new System.Drawing.Size(85, 25);
@@ -119,7 +125,9 @@
             // PalleRubate
             // 
             this.PalleRubate.AutoSize = true;
+            this.PalleRubate.BackColor = System.Drawing.Color.Transparent;
             this.PalleRubate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PalleRubate.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.PalleRubate.Location = new System.Drawing.Point(80, 269);
             this.PalleRubate.Name = "PalleRubate";
             this.PalleRubate.Size = new System.Drawing.Size(115, 25);
@@ -129,7 +137,9 @@
             // PallePerse
             // 
             this.PallePerse.AutoSize = true;
+            this.PallePerse.BackColor = System.Drawing.Color.Transparent;
             this.PallePerse.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PallePerse.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.PallePerse.Location = new System.Drawing.Point(80, 304);
             this.PallePerse.Name = "PallePerse";
             this.PallePerse.Size = new System.Drawing.Size(109, 25);
@@ -139,7 +149,9 @@
             // TiriTentati
             // 
             this.TiriTentati.AutoSize = true;
+            this.TiriTentati.BackColor = System.Drawing.Color.Transparent;
             this.TiriTentati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TiriTentati.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.TiriTentati.Location = new System.Drawing.Point(400, 76);
             this.TiriTentati.Name = "TiriTentati";
             this.TiriTentati.Size = new System.Drawing.Size(117, 25);
@@ -149,8 +161,10 @@
             // TiriSegnati
             // 
             this.TiriSegnati.AutoSize = true;
+            this.TiriSegnati.BackColor = System.Drawing.Color.Transparent;
             this.TiriSegnati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TiriSegnati.Location = new System.Drawing.Point(402, 137);
+            this.TiriSegnati.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.TiriSegnati.Location = new System.Drawing.Point(400, 169);
             this.TiriSegnati.Name = "TiriSegnati";
             this.TiriSegnati.Size = new System.Drawing.Size(107, 25);
             this.TiriSegnati.TabIndex = 6;
@@ -160,8 +174,10 @@
             // NFalli
             // 
             this.NFalli.AutoSize = true;
+            this.NFalli.BackColor = System.Drawing.Color.Transparent;
             this.NFalli.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NFalli.Location = new System.Drawing.Point(402, 269);
+            this.NFalli.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.NFalli.Location = new System.Drawing.Point(671, 291);
             this.NFalli.Name = "NFalli";
             this.NFalli.Size = new System.Drawing.Size(52, 25);
             this.NFalli.TabIndex = 7;
@@ -171,7 +187,9 @@
             // StatPunti
             // 
             this.StatPunti.AutoSize = true;
+            this.StatPunti.BackColor = System.Drawing.Color.Transparent;
             this.StatPunti.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatPunti.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatPunti.Location = new System.Drawing.Point(178, 42);
             this.StatPunti.Name = "StatPunti";
             this.StatPunti.Size = new System.Drawing.Size(23, 25);
@@ -180,48 +198,58 @@
             // 
             // PiuPuntiII
             // 
+            this.PiuPuntiII.BackColor = System.Drawing.Color.Transparent;
+            this.PiuPuntiII.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuPuntiII.Location = new System.Drawing.Point(241, 40);
             this.PiuPuntiII.Name = "PiuPuntiII";
             this.PiuPuntiII.Size = new System.Drawing.Size(28, 27);
             this.PiuPuntiII.TabIndex = 10;
             this.PiuPuntiII.Text = "+2";
-            this.PiuPuntiII.UseVisualStyleBackColor = true;
+            this.PiuPuntiII.UseVisualStyleBackColor = false;
             this.PiuPuntiII.Click += new System.EventHandler(this.PiuPuntiII_Click);
             // 
             // PiuPuntiIII
             // 
+            this.PiuPuntiIII.BackColor = System.Drawing.Color.Transparent;
+            this.PiuPuntiIII.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuPuntiIII.Location = new System.Drawing.Point(275, 40);
             this.PiuPuntiIII.Name = "PiuPuntiIII";
             this.PiuPuntiIII.Size = new System.Drawing.Size(28, 27);
             this.PiuPuntiIII.TabIndex = 11;
             this.PiuPuntiIII.Text = "+3";
-            this.PiuPuntiIII.UseVisualStyleBackColor = true;
+            this.PiuPuntiIII.UseVisualStyleBackColor = false;
             this.PiuPuntiIII.Click += new System.EventHandler(this.PiuPuntiIII_Click);
             // 
             // PiuPuntiI
             // 
+            this.PiuPuntiI.BackColor = System.Drawing.Color.Transparent;
+            this.PiuPuntiI.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuPuntiI.Location = new System.Drawing.Point(207, 40);
             this.PiuPuntiI.Name = "PiuPuntiI";
             this.PiuPuntiI.Size = new System.Drawing.Size(28, 27);
             this.PiuPuntiI.TabIndex = 12;
             this.PiuPuntiI.Text = "+1";
-            this.PiuPuntiI.UseVisualStyleBackColor = true;
+            this.PiuPuntiI.UseVisualStyleBackColor = false;
             this.PiuPuntiI.Click += new System.EventHandler(this.PiuPuntiI_Click);
             // 
             // MenopuntiI
             // 
+            this.MenopuntiI.BackColor = System.Drawing.Color.Transparent;
+            this.MenopuntiI.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenopuntiI.Location = new System.Drawing.Point(145, 42);
             this.MenopuntiI.Name = "MenopuntiI";
             this.MenopuntiI.Size = new System.Drawing.Size(27, 25);
             this.MenopuntiI.TabIndex = 13;
             this.MenopuntiI.Text = "-1";
-            this.MenopuntiI.UseVisualStyleBackColor = true;
+            this.MenopuntiI.UseVisualStyleBackColor = false;
             this.MenopuntiI.Click += new System.EventHandler(this.MenopuntiI_Click);
             // 
             // StatAssist
             // 
             this.StatAssist.AutoSize = true;
+            this.StatAssist.BackColor = System.Drawing.Color.Transparent;
             this.StatAssist.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatAssist.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatAssist.Location = new System.Drawing.Point(178, 79);
             this.StatAssist.Name = "StatAssist";
             this.StatAssist.Size = new System.Drawing.Size(23, 25);
@@ -231,48 +259,58 @@
             // 
             // MenoAssist
             // 
+            this.MenoAssist.BackColor = System.Drawing.Color.Transparent;
+            this.MenoAssist.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoAssist.Location = new System.Drawing.Point(145, 79);
             this.MenoAssist.Name = "MenoAssist";
             this.MenoAssist.Size = new System.Drawing.Size(27, 25);
             this.MenoAssist.TabIndex = 15;
             this.MenoAssist.Text = "-1";
-            this.MenoAssist.UseVisualStyleBackColor = true;
+            this.MenoAssist.UseVisualStyleBackColor = false;
             this.MenoAssist.Click += new System.EventHandler(this.MenoAssist_Click);
             // 
             // PiuAssist
             // 
+            this.PiuAssist.BackColor = System.Drawing.Color.Transparent;
+            this.PiuAssist.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuAssist.Location = new System.Drawing.Point(207, 79);
             this.PiuAssist.Name = "PiuAssist";
             this.PiuAssist.Size = new System.Drawing.Size(28, 27);
             this.PiuAssist.TabIndex = 16;
             this.PiuAssist.Text = "+1";
-            this.PiuAssist.UseVisualStyleBackColor = true;
+            this.PiuAssist.UseVisualStyleBackColor = false;
             this.PiuAssist.Click += new System.EventHandler(this.PiuAssist_Click);
             // 
             // MenoRimbalziOff
             // 
+            this.MenoRimbalziOff.BackColor = System.Drawing.Color.Transparent;
+            this.MenoRimbalziOff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoRimbalziOff.Location = new System.Drawing.Point(168, 172);
             this.MenoRimbalziOff.Name = "MenoRimbalziOff";
             this.MenoRimbalziOff.Size = new System.Drawing.Size(27, 25);
             this.MenoRimbalziOff.TabIndex = 17;
             this.MenoRimbalziOff.Text = "-1";
-            this.MenoRimbalziOff.UseVisualStyleBackColor = true;
+            this.MenoRimbalziOff.UseVisualStyleBackColor = false;
             this.MenoRimbalziOff.Click += new System.EventHandler(this.MenoRimbalzi_Click);
             // 
             // PiuRimbalziOff
             // 
+            this.PiuRimbalziOff.BackColor = System.Drawing.Color.Transparent;
+            this.PiuRimbalziOff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuRimbalziOff.Location = new System.Drawing.Point(230, 172);
             this.PiuRimbalziOff.Name = "PiuRimbalziOff";
             this.PiuRimbalziOff.Size = new System.Drawing.Size(27, 25);
             this.PiuRimbalziOff.TabIndex = 18;
             this.PiuRimbalziOff.Text = "+1";
-            this.PiuRimbalziOff.UseVisualStyleBackColor = true;
+            this.PiuRimbalziOff.UseVisualStyleBackColor = false;
             this.PiuRimbalziOff.Click += new System.EventHandler(this.PiuRimbalzi_Click);
             // 
             // StatRimbalziOff
             // 
             this.StatRimbalziOff.AutoSize = true;
+            this.StatRimbalziOff.BackColor = System.Drawing.Color.Transparent;
             this.StatRimbalziOff.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatRimbalziOff.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatRimbalziOff.Location = new System.Drawing.Point(201, 172);
             this.StatRimbalziOff.Name = "StatRimbalziOff";
             this.StatRimbalziOff.Size = new System.Drawing.Size(23, 25);
@@ -282,7 +320,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(74, 172);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 25);
@@ -293,7 +333,9 @@
             // RimDiff
             // 
             this.RimDiff.AutoSize = true;
+            this.RimDiff.BackColor = System.Drawing.Color.Transparent;
             this.RimDiff.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RimDiff.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.RimDiff.Location = new System.Drawing.Point(74, 208);
             this.RimDiff.Name = "RimDiff";
             this.RimDiff.Size = new System.Drawing.Size(85, 25);
@@ -303,7 +345,9 @@
             // StatRimbalziDiff
             // 
             this.StatRimbalziDiff.AutoSize = true;
+            this.StatRimbalziDiff.BackColor = System.Drawing.Color.Transparent;
             this.StatRimbalziDiff.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatRimbalziDiff.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatRimbalziDiff.Location = new System.Drawing.Point(201, 208);
             this.StatRimbalziDiff.Name = "StatRimbalziDiff";
             this.StatRimbalziDiff.Size = new System.Drawing.Size(23, 25);
@@ -312,28 +356,34 @@
             // 
             // PiuRimbalziDiff
             // 
+            this.PiuRimbalziDiff.BackColor = System.Drawing.Color.Transparent;
+            this.PiuRimbalziDiff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuRimbalziDiff.Location = new System.Drawing.Point(230, 208);
             this.PiuRimbalziDiff.Name = "PiuRimbalziDiff";
             this.PiuRimbalziDiff.Size = new System.Drawing.Size(27, 25);
             this.PiuRimbalziDiff.TabIndex = 22;
             this.PiuRimbalziDiff.Text = "+1";
-            this.PiuRimbalziDiff.UseVisualStyleBackColor = true;
+            this.PiuRimbalziDiff.UseVisualStyleBackColor = false;
             this.PiuRimbalziDiff.Click += new System.EventHandler(this.PiuRimbalziDiff_Click);
             // 
             // MenoRimbalziDiff
             // 
+            this.MenoRimbalziDiff.BackColor = System.Drawing.Color.Transparent;
+            this.MenoRimbalziDiff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoRimbalziDiff.Location = new System.Drawing.Point(168, 208);
             this.MenoRimbalziDiff.Name = "MenoRimbalziDiff";
             this.MenoRimbalziDiff.Size = new System.Drawing.Size(27, 25);
             this.MenoRimbalziDiff.TabIndex = 21;
             this.MenoRimbalziDiff.Text = "-1";
-            this.MenoRimbalziDiff.UseVisualStyleBackColor = true;
+            this.MenoRimbalziDiff.UseVisualStyleBackColor = false;
             this.MenoRimbalziDiff.Click += new System.EventHandler(this.MenoRimbalziDiff_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Location = new System.Drawing.Point(649, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 25);
@@ -343,7 +393,9 @@
             // Tirati
             // 
             this.Tirati.AutoSize = true;
+            this.Tirati.BackColor = System.Drawing.Color.Transparent;
             this.Tirati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tirati.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Tirati.Location = new System.Drawing.Point(649, 77);
             this.Tirati.Name = "Tirati";
             this.Tirati.Size = new System.Drawing.Size(55, 25);
@@ -353,7 +405,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Location = new System.Drawing.Point(400, 39);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(134, 25);
@@ -364,7 +418,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label5.Location = new System.Drawing.Point(649, 40);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 25);
@@ -374,7 +430,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label6.Location = new System.Drawing.Point(402, 101);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(117, 25);
@@ -395,7 +453,9 @@
             // StatTiriDue
             // 
             this.StatTiriDue.AutoSize = true;
+            this.StatTiriDue.BackColor = System.Drawing.Color.Transparent;
             this.StatTiriDue.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatTiriDue.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatTiriDue.Location = new System.Drawing.Point(548, 76);
             this.StatTiriDue.Name = "StatTiriDue";
             this.StatTiriDue.Size = new System.Drawing.Size(23, 25);
@@ -404,28 +464,34 @@
             // 
             // PiuTiriDue
             // 
+            this.PiuTiriDue.BackColor = System.Drawing.Color.Transparent;
+            this.PiuTiriDue.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuTiriDue.Location = new System.Drawing.Point(577, 76);
             this.PiuTiriDue.Name = "PiuTiriDue";
             this.PiuTiriDue.Size = new System.Drawing.Size(27, 25);
             this.PiuTiriDue.TabIndex = 32;
             this.PiuTiriDue.Text = "+1";
-            this.PiuTiriDue.UseVisualStyleBackColor = true;
+            this.PiuTiriDue.UseVisualStyleBackColor = false;
             this.PiuTiriDue.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // MenoTiriDue
             // 
+            this.MenoTiriDue.BackColor = System.Drawing.Color.Transparent;
+            this.MenoTiriDue.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoTiriDue.Location = new System.Drawing.Point(515, 76);
             this.MenoTiriDue.Name = "MenoTiriDue";
             this.MenoTiriDue.Size = new System.Drawing.Size(27, 25);
             this.MenoTiriDue.TabIndex = 31;
             this.MenoTiriDue.Text = "-1";
-            this.MenoTiriDue.UseVisualStyleBackColor = true;
+            this.MenoTiriDue.UseVisualStyleBackColor = false;
             this.MenoTiriDue.Click += new System.EventHandler(this.button2_Click);
             // 
             // StatTiriTre
             // 
             this.StatTiriTre.AutoSize = true;
+            this.StatTiriTre.BackColor = System.Drawing.Color.Transparent;
             this.StatTiriTre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatTiriTre.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatTiriTre.Location = new System.Drawing.Point(548, 104);
             this.StatTiriTre.Name = "StatTiriTre";
             this.StatTiriTre.Size = new System.Drawing.Size(23, 25);
@@ -434,29 +500,35 @@
             // 
             // PiuTiriTre
             // 
+            this.PiuTiriTre.BackColor = System.Drawing.Color.Transparent;
+            this.PiuTiriTre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuTiriTre.Location = new System.Drawing.Point(577, 104);
             this.PiuTiriTre.Name = "PiuTiriTre";
             this.PiuTiriTre.Size = new System.Drawing.Size(27, 25);
             this.PiuTiriTre.TabIndex = 35;
             this.PiuTiriTre.Text = "+1";
-            this.PiuTiriTre.UseVisualStyleBackColor = true;
+            this.PiuTiriTre.UseVisualStyleBackColor = false;
             this.PiuTiriTre.Click += new System.EventHandler(this.PiuTiriTre_Click);
             // 
             // MenoTiriTre
             // 
+            this.MenoTiriTre.BackColor = System.Drawing.Color.Transparent;
+            this.MenoTiriTre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoTiriTre.Location = new System.Drawing.Point(515, 104);
             this.MenoTiriTre.Name = "MenoTiriTre";
             this.MenoTiriTre.Size = new System.Drawing.Size(27, 25);
             this.MenoTiriTre.TabIndex = 34;
             this.MenoTiriTre.Text = "-1";
-            this.MenoTiriTre.UseVisualStyleBackColor = true;
+            this.MenoTiriTre.UseVisualStyleBackColor = false;
             this.MenoTiriTre.Click += new System.EventHandler(this.MenoTiriTre_Click);
             // 
             // StatTiriSegnati
             // 
             this.StatTiriSegnati.AutoSize = true;
+            this.StatTiriSegnati.BackColor = System.Drawing.Color.Transparent;
             this.StatTiriSegnati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StatTiriSegnati.Location = new System.Drawing.Point(548, 135);
+            this.StatTiriSegnati.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.StatTiriSegnati.Location = new System.Drawing.Point(546, 167);
             this.StatTiriSegnati.Name = "StatTiriSegnati";
             this.StatTiriSegnati.Size = new System.Drawing.Size(23, 25);
             this.StatTiriSegnati.TabIndex = 39;
@@ -464,28 +536,34 @@
             // 
             // PiùTiriTentati
             // 
-            this.PiùTiriTentati.Location = new System.Drawing.Point(577, 135);
+            this.PiùTiriTentati.BackColor = System.Drawing.Color.Transparent;
+            this.PiùTiriTentati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.PiùTiriTentati.Location = new System.Drawing.Point(577, 167);
             this.PiùTiriTentati.Name = "PiùTiriTentati";
             this.PiùTiriTentati.Size = new System.Drawing.Size(27, 25);
             this.PiùTiriTentati.TabIndex = 38;
             this.PiùTiriTentati.Text = "+1";
-            this.PiùTiriTentati.UseVisualStyleBackColor = true;
+            this.PiùTiriTentati.UseVisualStyleBackColor = false;
             this.PiùTiriTentati.Click += new System.EventHandler(this.PiùTiriTentati_Click);
             // 
             // MenoTiriTentati
             // 
-            this.MenoTiriTentati.Location = new System.Drawing.Point(515, 135);
+            this.MenoTiriTentati.BackColor = System.Drawing.Color.Transparent;
+            this.MenoTiriTentati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.MenoTiriTentati.Location = new System.Drawing.Point(513, 167);
             this.MenoTiriTentati.Name = "MenoTiriTentati";
             this.MenoTiriTentati.Size = new System.Drawing.Size(27, 25);
             this.MenoTiriTentati.TabIndex = 37;
             this.MenoTiriTentati.Text = "-1";
-            this.MenoTiriTentati.UseVisualStyleBackColor = true;
+            this.MenoTiriTentati.UseVisualStyleBackColor = false;
             this.MenoTiriTentati.Click += new System.EventHandler(this.MenoTiriTentati_Click);
             // 
             // StatLiberiTotali
             // 
             this.StatLiberiTotali.AutoSize = true;
+            this.StatLiberiTotali.BackColor = System.Drawing.Color.Transparent;
             this.StatLiberiTotali.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatLiberiTotali.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatLiberiTotali.Location = new System.Drawing.Point(806, 76);
             this.StatLiberiTotali.Name = "StatLiberiTotali";
             this.StatLiberiTotali.Size = new System.Drawing.Size(23, 25);
@@ -494,28 +572,34 @@
             // 
             // PiuLiberi
             // 
+            this.PiuLiberi.BackColor = System.Drawing.Color.Transparent;
+            this.PiuLiberi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuLiberi.Location = new System.Drawing.Point(835, 76);
             this.PiuLiberi.Name = "PiuLiberi";
             this.PiuLiberi.Size = new System.Drawing.Size(27, 25);
             this.PiuLiberi.TabIndex = 41;
             this.PiuLiberi.Text = "+1";
-            this.PiuLiberi.UseVisualStyleBackColor = true;
+            this.PiuLiberi.UseVisualStyleBackColor = false;
             this.PiuLiberi.Click += new System.EventHandler(this.button7_Click);
             // 
             // MenoLiberi
             // 
+            this.MenoLiberi.BackColor = System.Drawing.Color.Transparent;
+            this.MenoLiberi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoLiberi.Location = new System.Drawing.Point(773, 76);
             this.MenoLiberi.Name = "MenoLiberi";
             this.MenoLiberi.Size = new System.Drawing.Size(27, 25);
             this.MenoLiberi.TabIndex = 40;
             this.MenoLiberi.Text = "-1";
-            this.MenoLiberi.UseVisualStyleBackColor = true;
+            this.MenoLiberi.UseVisualStyleBackColor = false;
             this.MenoLiberi.Click += new System.EventHandler(this.button8_Click);
             // 
             // StatLiberiSegnati
             // 
             this.StatLiberiSegnati.AutoSize = true;
+            this.StatLiberiSegnati.BackColor = System.Drawing.Color.Transparent;
             this.StatLiberiSegnati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatLiberiSegnati.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatLiberiSegnati.Location = new System.Drawing.Point(806, 107);
             this.StatLiberiSegnati.Name = "StatLiberiSegnati";
             this.StatLiberiSegnati.Size = new System.Drawing.Size(23, 25);
@@ -524,29 +608,35 @@
             // 
             // PiuLiberiSegnati
             // 
+            this.PiuLiberiSegnati.BackColor = System.Drawing.Color.Transparent;
+            this.PiuLiberiSegnati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiuLiberiSegnati.Location = new System.Drawing.Point(835, 107);
             this.PiuLiberiSegnati.Name = "PiuLiberiSegnati";
             this.PiuLiberiSegnati.Size = new System.Drawing.Size(27, 25);
             this.PiuLiberiSegnati.TabIndex = 44;
             this.PiuLiberiSegnati.Text = "+1";
-            this.PiuLiberiSegnati.UseVisualStyleBackColor = true;
+            this.PiuLiberiSegnati.UseVisualStyleBackColor = false;
             this.PiuLiberiSegnati.Click += new System.EventHandler(this.PiuLiberiSegnati_Click);
             // 
             // MenoLiberiSegnati
             // 
+            this.MenoLiberiSegnati.BackColor = System.Drawing.Color.Transparent;
+            this.MenoLiberiSegnati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoLiberiSegnati.Location = new System.Drawing.Point(773, 107);
             this.MenoLiberiSegnati.Name = "MenoLiberiSegnati";
             this.MenoLiberiSegnati.Size = new System.Drawing.Size(27, 25);
             this.MenoLiberiSegnati.TabIndex = 43;
             this.MenoLiberiSegnati.Text = "-1";
-            this.MenoLiberiSegnati.UseVisualStyleBackColor = true;
+            this.MenoLiberiSegnati.UseVisualStyleBackColor = false;
             this.MenoLiberiSegnati.Click += new System.EventHandler(this.MenoLiberiSegnati_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(402, 172);
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.Location = new System.Drawing.Point(402, 137);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(84, 25);
             this.label7.TabIndex = 46;
@@ -555,8 +645,10 @@
             // StatTiriTotali
             // 
             this.StatTiriTotali.AutoSize = true;
+            this.StatTiriTotali.BackColor = System.Drawing.Color.Transparent;
             this.StatTiriTotali.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StatTiriTotali.Location = new System.Drawing.Point(548, 172);
+            this.StatTiriTotali.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.StatTiriTotali.Location = new System.Drawing.Point(548, 137);
             this.StatTiriTotali.Name = "StatTiriTotali";
             this.StatTiriTotali.Size = new System.Drawing.Size(23, 25);
             this.StatTiriTotali.TabIndex = 47;
@@ -565,8 +657,10 @@
             // StatFalli
             // 
             this.StatFalli.AutoSize = true;
+            this.StatFalli.BackColor = System.Drawing.Color.Transparent;
             this.StatFalli.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StatFalli.Location = new System.Drawing.Point(492, 269);
+            this.StatFalli.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.StatFalli.Location = new System.Drawing.Point(758, 291);
             this.StatFalli.Name = "StatFalli";
             this.StatFalli.Size = new System.Drawing.Size(23, 25);
             this.StatFalli.TabIndex = 50;
@@ -574,26 +668,34 @@
             // 
             // PiuFalli
             // 
-            this.PiuFalli.Location = new System.Drawing.Point(521, 269);
+            this.PiuFalli.BackColor = System.Drawing.Color.Transparent;
+            this.PiuFalli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.PiuFalli.Location = new System.Drawing.Point(787, 291);
             this.PiuFalli.Name = "PiuFalli";
             this.PiuFalli.Size = new System.Drawing.Size(27, 25);
             this.PiuFalli.TabIndex = 49;
             this.PiuFalli.Text = "+1";
-            this.PiuFalli.UseVisualStyleBackColor = true;
+            this.PiuFalli.UseVisualStyleBackColor = false;
+            this.PiuFalli.Click += new System.EventHandler(this.PiuFalli_Click);
             // 
             // MenoFalli
             // 
-            this.MenoFalli.Location = new System.Drawing.Point(459, 269);
+            this.MenoFalli.BackColor = System.Drawing.Color.Transparent;
+            this.MenoFalli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.MenoFalli.Location = new System.Drawing.Point(725, 291);
             this.MenoFalli.Name = "MenoFalli";
             this.MenoFalli.Size = new System.Drawing.Size(27, 25);
             this.MenoFalli.TabIndex = 48;
             this.MenoFalli.Text = "-1";
-            this.MenoFalli.UseVisualStyleBackColor = true;
+            this.MenoFalli.UseVisualStyleBackColor = false;
+            this.MenoFalli.Click += new System.EventHandler(this.MenoFalli_Click);
             // 
             // StatPalleRubate
             // 
             this.StatPalleRubate.AutoSize = true;
+            this.StatPalleRubate.BackColor = System.Drawing.Color.Transparent;
             this.StatPalleRubate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatPalleRubate.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatPalleRubate.Location = new System.Drawing.Point(234, 269);
             this.StatPalleRubate.Name = "StatPalleRubate";
             this.StatPalleRubate.Size = new System.Drawing.Size(23, 25);
@@ -602,26 +704,34 @@
             // 
             // PiùPalleRubate
             // 
+            this.PiùPalleRubate.BackColor = System.Drawing.Color.Transparent;
+            this.PiùPalleRubate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiùPalleRubate.Location = new System.Drawing.Point(263, 269);
             this.PiùPalleRubate.Name = "PiùPalleRubate";
             this.PiùPalleRubate.Size = new System.Drawing.Size(27, 25);
             this.PiùPalleRubate.TabIndex = 52;
             this.PiùPalleRubate.Text = "+1";
-            this.PiùPalleRubate.UseVisualStyleBackColor = true;
+            this.PiùPalleRubate.UseVisualStyleBackColor = false;
+            this.PiùPalleRubate.Click += new System.EventHandler(this.PiùPalleRubate_Click);
             // 
             // MenoPalleRubate
             // 
+            this.MenoPalleRubate.BackColor = System.Drawing.Color.Transparent;
+            this.MenoPalleRubate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoPalleRubate.Location = new System.Drawing.Point(201, 269);
             this.MenoPalleRubate.Name = "MenoPalleRubate";
             this.MenoPalleRubate.Size = new System.Drawing.Size(27, 25);
             this.MenoPalleRubate.TabIndex = 51;
             this.MenoPalleRubate.Text = "-1";
-            this.MenoPalleRubate.UseVisualStyleBackColor = true;
+            this.MenoPalleRubate.UseVisualStyleBackColor = false;
+            this.MenoPalleRubate.Click += new System.EventHandler(this.MenoPalleRubate_Click);
             // 
             // StatPallePerse
             // 
             this.StatPallePerse.AutoSize = true;
+            this.StatPallePerse.BackColor = System.Drawing.Color.Transparent;
             this.StatPallePerse.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatPallePerse.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.StatPallePerse.Location = new System.Drawing.Point(234, 304);
             this.StatPallePerse.Name = "StatPallePerse";
             this.StatPallePerse.Size = new System.Drawing.Size(23, 25);
@@ -630,28 +740,36 @@
             // 
             // PiùPallePerse
             // 
+            this.PiùPallePerse.BackColor = System.Drawing.Color.Transparent;
+            this.PiùPallePerse.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.PiùPallePerse.Location = new System.Drawing.Point(263, 304);
             this.PiùPallePerse.Name = "PiùPallePerse";
             this.PiùPallePerse.Size = new System.Drawing.Size(27, 25);
             this.PiùPallePerse.TabIndex = 55;
             this.PiùPallePerse.Text = "+1";
-            this.PiùPallePerse.UseVisualStyleBackColor = true;
+            this.PiùPallePerse.UseVisualStyleBackColor = false;
+            this.PiùPallePerse.Click += new System.EventHandler(this.PiùPallePerse_Click);
             // 
             // MenoPallePerse
             // 
+            this.MenoPallePerse.BackColor = System.Drawing.Color.Transparent;
+            this.MenoPallePerse.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MenoPallePerse.Location = new System.Drawing.Point(201, 304);
             this.MenoPallePerse.Name = "MenoPallePerse";
             this.MenoPallePerse.Size = new System.Drawing.Size(27, 25);
             this.MenoPallePerse.TabIndex = 54;
             this.MenoPallePerse.Text = "-1";
-            this.MenoPallePerse.UseVisualStyleBackColor = true;
+            this.MenoPallePerse.UseVisualStyleBackColor = false;
+            this.MenoPallePerse.Click += new System.EventHandler(this.MenoPallePerse_Click);
             // 
             // Duepunti
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(876, 450);
+            this.BackgroundImage = global::Capolavoro.Properties.Resources.Sfondo_app;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(962, 567);
             this.Controls.Add(this.StatPallePerse);
             this.Controls.Add(this.PiùPallePerse);
             this.Controls.Add(this.MenoPallePerse);

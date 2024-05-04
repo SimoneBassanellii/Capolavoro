@@ -424,10 +424,138 @@ namespace Capolavoro
 
         #endregion
 
-        #region Tiri totali 
+        #region Tiri totali  
+        private void CalcoloTiriTot(Label StatTiriDue, Label StatTiriTre)
+        {
+            int valoreStatTiriDue = int.Parse(StatTiriDue.Text);
+            int valoreStatTiriTre = int.Parse(StatTiriTre.Text);
+
+            int TiriTotale = valoreStatTiriDue + valoreStatTiriTre;
+             
+            StatTiriSegnati.Text = TiriTotale.ToString();
+
+            //Far funzionare con click quando si premono i pulsanti  
+        }
 
         #endregion
 
+        #endregion
+
+        #region Palle
+
+        #region Rubate
+        private void MenoPalleRubate_Click(object sender, EventArgs e)
+        {
+            DiminuisciValorePL();
+        }
+
+        private void PiùPalleRubate_Click(object sender, EventArgs e)
+        {
+            AumentaValorePL();
+        }
+
+        private void AumentaValorePL()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatPalleRubate.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatPalleRubate.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void DiminuisciValorePL()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatPalleRubate.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatPalleRubate.Text = valoreAttuale.ToString();
+            }
+        }
+        #endregion
+
+        #region Perse
+        private void MenoPallePerse_Click(object sender, EventArgs e)
+        {
+            DiminuisciValorePP();
+        }
+
+        private void PiùPallePerse_Click(object sender, EventArgs e)
+        {
+            AumentaValorePP();
+        }
+        private void DiminuisciValorePP()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatPallePerse.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatPallePerse.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void AumentaValorePP()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatPallePerse.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatPallePerse.Text = valoreAttuale.ToString();
+            }
+        }
+        #endregion
+
+        #endregion
+
+        #region Falli
+        private void MenoFalli_Click(object sender, EventArgs e)
+        {
+            DiminuisciValoreF();
+        }
+
+        private void PiuFalli_Click(object sender, EventArgs e)
+        {
+            AumentaValoreF();
+        }
+
+        private void DiminuisciValoreF()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatFalli.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale--;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatFalli.Text = valoreAttuale.ToString();
+            }
+        }
+
+        private void AumentaValoreF()
+        {
+            // Controlla se il testo nel label può essere convertito in un numero intero
+            if (int.TryParse(StatFalli.Text, out int valoreAttuale))
+            {
+                // Aumenta il valore del label di 1
+                valoreAttuale++;
+
+                // Aggiorna il testo del label con il nuovo valore
+                StatFalli.Text = valoreAttuale.ToString();
+            }
+        }
         #endregion
 
         private void TiriSegnati_Click(object sender, EventArgs e)
