@@ -481,7 +481,7 @@
             this.MenoTiriDue.TabIndex = 31;
             this.MenoTiriDue.Text = "-1";
             this.MenoTiriDue.UseVisualStyleBackColor = false;
-            this.MenoTiriDue.Click += new System.EventHandler(this.button2_Click);
+            this.MenoTiriDue.Click += new System.EventHandler(this.btnbutton2_Click);
             // 
             // StatTiriTre
             // 
@@ -517,7 +517,7 @@
             this.MenoTiriTre.TabIndex = 34;
             this.MenoTiriTre.Text = "-1";
             this.MenoTiriTre.UseVisualStyleBackColor = false;
-            this.MenoTiriTre.Click += new System.EventHandler(this.MenoTiriTre_Click);
+            this.MenoTiriTre.Click += new System.EventHandler(this.btnMenoTiriTre_Click);
             // 
             // StatTiriSegnati
             // 

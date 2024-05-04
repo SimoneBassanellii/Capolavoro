@@ -224,9 +224,10 @@ namespace Capolavoro
         #region Tiri dal campo
 
         #region Tiri da 2 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnbutton2_Click(object sender, EventArgs e)
         {
             DiminuisciValoreTiriDue();
+            CalcoloTiriTot(StatTiriDue, StatTiriTre);
         }
 
         private void btnbutton1_Click_1(object sender, EventArgs e)
@@ -264,9 +265,10 @@ namespace Capolavoro
 
         #region Tiri da 3 
 
-        private void MenoTiriTre_Click(object sender, EventArgs e)
+        private void btnMenoTiriTre_Click(object sender, EventArgs e)
         {
             DiminuisciValoreTiriTre();
+            CalcoloTiriTot(StatTiriDue, StatTiriTre);
         }
 
         private void btnPiuTiriTre_Click(object sender, EventArgs e)
@@ -434,9 +436,7 @@ namespace Capolavoro
 
             int TiriTotale = valoreStatTiriDue + valoreStatTiriTre;
 
-            StatTiriTotali.Text = TiriTotale.ToString();
-
-            //Far funzionare con click quando si premono i pulsanti  
+            StatTiriTotali.Text = TiriTotale.ToString(); 
         }
 
         #endregion
