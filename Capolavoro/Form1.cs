@@ -229,9 +229,10 @@ namespace Capolavoro
             DiminuisciValoreTiriDue();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void btnbutton1_Click_1(object sender, EventArgs e)
         {
             AumentaValoreTiriDue();
+            CalcoloTiriTot(StatTiriDue, StatTiriTre);
         }
 
         private void AumentaValoreTiriDue()
@@ -268,9 +269,10 @@ namespace Capolavoro
             DiminuisciValoreTiriTre();
         }
 
-        private void PiuTiriTre_Click(object sender, EventArgs e)
+        private void btnPiuTiriTre_Click(object sender, EventArgs e)
         {
             AumentaValoreTiriTre();
+            CalcoloTiriTot(StatTiriDue, StatTiriTre);
         }
 
         private void AumentaValoreTiriTre()
@@ -431,8 +433,8 @@ namespace Capolavoro
             int valoreStatTiriTre = int.Parse(StatTiriTre.Text);
 
             int TiriTotale = valoreStatTiriDue + valoreStatTiriTre;
-             
-            StatTiriSegnati.Text = TiriTotale.ToString();
+
+            StatTiriTotali.Text = TiriTotale.ToString();
 
             //Far funzionare con click quando si premono i pulsanti  
         }
@@ -558,28 +560,8 @@ namespace Capolavoro
         }
         #endregion
 
-        private void TiriSegnati_Click(object sender, EventArgs e)
-        {
+        #region Serializzazione partite 
 
-        }
-
-        private void NFalli_Click(object sender, EventArgs e)
-        {
-
-        }
-
-       
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
+        #endregion
     }
 }

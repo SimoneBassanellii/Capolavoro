@@ -169,7 +169,6 @@
             this.TiriSegnati.Size = new System.Drawing.Size(107, 25);
             this.TiriSegnati.TabIndex = 6;
             this.TiriSegnati.Text = "Tiri segnati";
-            this.TiriSegnati.Click += new System.EventHandler(this.TiriSegnati_Click);
             // 
             // NFalli
             // 
@@ -182,7 +181,6 @@
             this.NFalli.Size = new System.Drawing.Size(52, 25);
             this.NFalli.TabIndex = 7;
             this.NFalli.Text = "Falli ";
-            this.NFalli.Click += new System.EventHandler(this.NFalli_Click);
             // 
             // StatPunti
             // 
@@ -328,7 +326,7 @@
             this.label1.Size = new System.Drawing.Size(88, 25);
             this.label1.TabIndex = 20;
             this.label1.Text = "Offensivi";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // RimDiff
             // 
@@ -448,7 +446,6 @@
             this.Serializza.TabIndex = 30;
             this.Serializza.Text = "Fine partita ";
             this.Serializza.UseVisualStyleBackColor = true;
-            this.Serializza.Click += new System.EventHandler(this.button1_Click);
             // 
             // StatTiriDue
             // 
@@ -472,7 +469,7 @@
             this.PiuTiriDue.TabIndex = 32;
             this.PiuTiriDue.Text = "+1";
             this.PiuTiriDue.UseVisualStyleBackColor = false;
-            this.PiuTiriDue.Click += new System.EventHandler(this.button1_Click_1);
+            this.PiuTiriDue.Click += new System.EventHandler(this.btnbutton1_Click_1);
             // 
             // MenoTiriDue
             // 
@@ -508,7 +505,7 @@
             this.PiuTiriTre.TabIndex = 35;
             this.PiuTiriTre.Text = "+1";
             this.PiuTiriTre.UseVisualStyleBackColor = false;
-            this.PiuTiriTre.Click += new System.EventHandler(this.PiuTiriTre_Click);
+            this.PiuTiriTre.Click += new System.EventHandler(this.btnPiuTiriTre_Click);
             // 
             // MenoTiriTre
             // 
