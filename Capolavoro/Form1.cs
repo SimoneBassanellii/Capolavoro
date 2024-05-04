@@ -348,7 +348,7 @@ namespace Capolavoro
 
         #region Tiri lIberi
 
-        #region Tiri Totali
+        #region Tirati
 
         private void button8_Click(object sender, EventArgs e)
         {
@@ -387,7 +387,7 @@ namespace Capolavoro
         }
         #endregion
 
-        #region Tiri segnati
+        #region Segnati
 
         private void PiuLiberiSegnati_Click(object sender, EventArgs e)
         {
@@ -428,7 +428,7 @@ namespace Capolavoro
 
         #endregion
 
-        #region Tiri totali  
+        #region Calcolo tiri totali  
         private void CalcoloTiriTot(Label StatTiriDue, Label StatTiriTre)
         {
             int valoreStatTiriDue = int.Parse(StatTiriDue.Text);
@@ -440,7 +440,7 @@ namespace Capolavoro
         }
 
         #endregion
-
+        
         #endregion
 
         #region Palle
