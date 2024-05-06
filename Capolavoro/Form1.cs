@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Capolavoro
 {
@@ -19,9 +20,9 @@ namespace Capolavoro
 
         private void Form1_Load(object sender, EventArgs e)
         {
-             
+
         }
-        
+
         #region Punti
         private void MenopuntiI_Click(object sender, EventArgs e)
         {
@@ -63,7 +64,7 @@ namespace Capolavoro
             {
                 // Aumenta il valore del label di 1
                 valoreAttuale += 2;
-                 
+
                 // Aggiorna il testo del label con il nuovo valore
                 StatPunti.Text = valoreAttuale.ToString();
             }
@@ -436,11 +437,11 @@ namespace Capolavoro
 
             int TiriTotale = valoreStatTiriDue + valoreStatTiriTre;
 
-            StatTiriTotali.Text = TiriTotale.ToString(); 
+            StatTiriTotali.Text = TiriTotale.ToString();
         }
 
         #endregion
-        
+
         #endregion
 
         #region Palle
@@ -562,6 +563,41 @@ namespace Capolavoro
 
         #region Serializzazione partite 
 
-        #endregion
+        //crea un file csv poi serializzza i dati  il percorso deve funzionare per tutti i pc i valori sono da prendere nei label
+        private void btnSalvaPartita_Click(object sender, EventArgs e)
+        {
+            string path = @"C:\Users\Utente\Desktop\Partite.csv";
+            string[] partita = new string[15];
+            partita[0] = StatPunti.Text;
+            partita[1] = StatAssist.Text;
+            partita[2] = StatRimbalziOff.Text;
+            partita[3] = StatRimbalziDiff.Text;
+            partita[4] = StatTiriDue.Text;
+            partita[5] = StatTiriTre.Text;
+            partita[6] = StatTiriTotali.Text;
+            partita[7] = StatTiriSegnati.Text;
+            partita[8] = StatLiberiTotali.Text;
+            partita[9] = StatLiberiSegnati.Text;
+            partita[10] = StatPalleRubate.Text;
+            partita[11] = StatPallePerse.Text;
+            partita[12] = StatFalli.Text;
+            partita[13] = DateTime.Now.ToString();
+            partita[14] = "Partita";
+
+            if (!File.Exists(path))
+            {
+                File.Create(path).Close();
+            }
+
+            using (StreamWriter sw = File.AppendText(path))
+            {
+                sw.WriteLine(string.Join(";", partita));
+            }
+        }
+
+
+
+
+
     }
 }
