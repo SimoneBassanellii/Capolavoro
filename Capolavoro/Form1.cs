@@ -13,11 +13,14 @@ namespace Capolavoro
 {
     public partial class Duepunti : Form
     {
-        private List<string> listaStatistiche = new List<string>();
+        private List<Giocatore> listaGiocatori = new List<Giocatore>();
 
         public Duepunti()
         {
             InitializeComponent();
+            //Duepunti form2= new Duepunti();
+            //form2.Focus();
+            //form2.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -564,15 +567,19 @@ namespace Capolavoro
         #endregion
 
         #region Serializzazione partite 
-
-        //crea un file csv poi serializzza i dati  il percorso deve funzionare per tutti i pc i valori sono da prendere nei label
         private void btnSalvaPartita_Click(object sender, EventArgs e)
         {
-          
+            Giocatore giocatore = new Giocatore(StatPunti.Text, StatAssist.Text, StatRimbalziOff.Text, StatRimbalziDiff.Text, StatPalleRubate.Text, StatPallePerse.Text, StatTiriDue.Text, StatTiriTre.Text, StatTiriTotali.Text, StatTiriSegnati.Text, StatLiberiTotali.Text, StatLiberiSegnati.Text, StatFalli.Text);
+            listaGiocatori.Add(giocatore);
         }
 
+        private void Serializza_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
-    #endregion
+
 }
 
 

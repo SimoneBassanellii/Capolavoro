@@ -8,93 +8,93 @@ namespace Capolavoro
 {
     internal class Giocatore
     {
-        private int _punti;
-        private int _assist;
-        private int _rimabalziOffensivi;
-        private int _rimabalziDifensivi;
-        private int _palleRubate;
-        private int _pallePerse;
-        private int _tiritentati2;
-        private int _tiritentati3;
-        private int _tiritotali;
-        private int _tirisegnati;
-        private int _tiriliberitentati;
-        private int _tiriliberiseganti;
-        private int _fallisubiti;
+        private string _punti;
+        private string _assist;
+        private string _rimabalziOffensivi;
+        private string _rimabalziDifensivi;
+        private string _palleRubate;
+        private string _pallePerse;
+        private string _tiritentati2;
+        private string _tiritentati3;
+        private string _tiritotali;
+        private string _tirisegnati;
+        private string _tiriliberitentati;
+        private string _tiriliberiseganti;
+        private string _fallisubiti;
 
-        public int Punti
+        public string Punti
         {
             get => _punti;
             set => _punti = value;
         }
 
-        public int Assist
+        public string Assist
         {
             get => _assist;
             set => _assist = value;
         }
 
-        public int RimbalziOffensivi
+        public string RimbalziOffensivi
         {
             get => _rimabalziOffensivi;
             set => _rimabalziOffensivi = value;
         }
 
-        public int RimbalziDifensivi
+        public string RimbalziDifensivi
         {
             get => _rimabalziDifensivi;
             set => _rimabalziDifensivi = value;
         }
 
-        public int PalleRubate
+        public string PalleRubate
         {
             get => _palleRubate;
             set => _palleRubate = value;
         }
 
-        public int PallePerse
+        public string PallePerse
         {
             get => _pallePerse;
             set => _pallePerse = value;
         }
 
-        public int TirTentati2
+        public string TirTentati2
         {
             get => _tiritentati2;
             set => _tiritentati2 = value;
         }
 
-        public int TiriTentati3
+        public string TiriTentati3
         {
             get => _tiritentati3;
             set => _tiritentati3 = value;
         }
 
-        public int TiriTotali
+        public string TiriTotali
         {
             get => _tiritotali;
             set => _tiritotali = value;
         }
 
-        public int TiriSegnati
+        public string TiriSegnati
         {
             get => _tirisegnati;
             set => _tirisegnati = value;
         }
 
-        public int TiriLiberiTentati
+        public string TiriLiberiTentati
         {
             get => _tiriliberitentati;
             set => _tiriliberitentati = value;
         }
 
-        public int TiriLiberiSegnati
+        public string TiriLiberiSegnati
         {
             get => _tiriliberiseganti;
             set => _tiriliberiseganti = value;
         }
 
-        public int FalliSubiti
+        public string FalliSubiti
         {
             get => _fallisubiti;
             set => _fallisubiti = value;
@@ -102,22 +102,22 @@ namespace Capolavoro
 
         public Giocatore()
         {
-            Punti = 0;
-            Assist = 0;
-            RimbalziOffensivi = 0;
-            RimbalziDifensivi = 0;
-            PalleRubate = 0;
-            PallePerse = 0;
-            TirTentati2 = 0;
-            TiriTentati3 = 0;
-            TiriTotali = 0;
-            TiriSegnati = 0;
-            TiriLiberiTentati = 0;
-            TiriLiberiSegnati = 0;
-            FalliSubiti = 0;
+            Punti = "";
+            Assist = "";
+            RimbalziOffensivi = "";
+            RimbalziDifensivi = "";
+            PalleRubate = "";
+            PallePerse = "";
+            TirTentati2 = "";
+            TiriTentati3 = "";
+            TiriTotali = "";
+            TiriSegnati = "";
+            TiriLiberiTentati = "";
+            TiriLiberiSegnati = "";
+            FalliSubiti = "";
         }
 
-        public Giocatore(int punti, int assist, int rimbalziOffensivi, int rimbalziDifensivi, int palleRubate, int pallePerse, int tiriTentati2, int tiriTentati3, int tiriTotali, int tiriSegnati, int tiriLiberiTentati, int tiriLiberiSegnati, int falliSubiti)
+        public Giocatore(string punti, string assist, string rimbalziOffensivi, string rimbalziDifensivi, string palleRubate, string pallePerse, string tiriTentati2, string tiriTentati3, string tiriTotali, string tiriSegnati, string tiriLiberiTentati, string tiriLiberiSegnati, string falliSubiti)
         {
             Punti = punti;
             Assist = assist;
