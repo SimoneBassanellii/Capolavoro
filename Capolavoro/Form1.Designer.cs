@@ -326,7 +326,6 @@
             this.label1.Size = new System.Drawing.Size(88, 25);
             this.label1.TabIndex = 20;
             this.label1.Text = "Offensivi";
-            
             // 
             // RimDiff
             // 
@@ -446,6 +445,7 @@
             this.Serializza.TabIndex = 30;
             this.Serializza.Text = "Fine partita ";
             this.Serializza.UseVisualStyleBackColor = true;
+            this.Serializza.Click += new System.EventHandler(this.Serializza_Click);
             // 
             // StatTiriDue
             // 
@@ -764,7 +764,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.BackgroundImage = global::Capolavoro.Properties.Resources.Sfondo_app;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(962, 567);
             this.Controls.Add(this.StatPallePerse);
