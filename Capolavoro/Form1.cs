@@ -21,11 +21,12 @@ namespace Capolavoro
             //Duepunti form2= new Duepunti();
             //form2.Focus();
             //form2.Show();
+         
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         #region Punti
@@ -578,9 +579,34 @@ namespace Capolavoro
 
         }
         #endregion
+
+        private void Giocatore1_Click(object sender, EventArgs e)
+        {
+            panelgiocatore2.Visible = false;
+            panelgiocatore3.Visible = false;
+            panelgiocatore4.Visible = false;
+        }
+
+        private void GIocatore2_Click(object sender, EventArgs e)
+        {
+            panelgiocatore2.Visible = true;
+            panelgiocatore3.Visible = false;
+            panelgiocatore4.Visible = false;
+        }
+
+        private void GIocatore3_Click(object sender, EventArgs e)
+        {
+            panelgiocatore2.Visible = false;
+            panelgiocatore3.Visible = true;
+            panelgiocatore4.Visible = false;
+        }
+
+        private void GIocatore4_Click(object sender, EventArgs e)
+        {
+            panelgiocatore2.Visible = false;
+            panelgiocatore3.Visible = false;
+            panelgiocatore4.Visible = true;
+        }
     }
 
 }
-
-
-
