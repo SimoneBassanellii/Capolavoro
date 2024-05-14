@@ -597,7 +597,6 @@ namespace Capolavoro
         private void GIocatore3_Click(object sender, EventArgs e)
         {
             panelgiocatore2.Visible = false;
-            panelgiocatore3.Visible = true;
             panelgiocatore4.Visible = false;
         }
 
