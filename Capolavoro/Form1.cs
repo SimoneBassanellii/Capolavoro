@@ -609,6 +609,7 @@ namespace Capolavoro
 
         #endregion
 
+        #region Grafica
         private void grafico_Click(object sender, EventArgs e)
         {
             panelpanel.Visible= true;  
@@ -618,6 +619,10 @@ namespace Capolavoro
         {
             panelpanel.Visible = false;
         }
+        #endregion
+
+        /*Aggiungere pacchetto da Nuget per serializzazione Newtonsoft.Json, aggiungere riferimenti per visualizzazione grafico andando su riferimenti tasto destro aggiungi riferimenti 
+         e cercare spuntarli entrambi*/
     }
 
 }
