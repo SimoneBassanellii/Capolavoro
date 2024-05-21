@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Xml;
+using Newtonsoft.Json;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace Capolavoro
 {
@@ -26,7 +29,7 @@ namespace Capolavoro
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            panelpanel.Visible = false;
         }
 
         #region Punti
@@ -576,35 +579,44 @@ namespace Capolavoro
 
         private void Serializza_Click(object sender, EventArgs e)
         {
+            // Leggi i valori dalle label
+            string statPunti = StatPunti.Text;
+            string statAssist = StatAssist.Text;
+            string statRimbalziOff = StatRimbalziOff.Text;
+            string statRimbalziDiff = StatRimbalziDiff.Text;
+            string statPalleRubate = StatPalleRubate.Text;
+            string statPallePerse = StatPallePerse.Text;
+            string statTiriDue = StatTiriDue.Text;
+            string statTiriTre = StatTiriTre.Text;
+            string statTiriTotali = StatTiriTotali.Text;
+            string statTiriSegnati = StatTiriSegnati.Text;
+            string statLiberiTotali = StatLiberiTotali.Text;
+            string statLiberiSegnati = StatLiberiSegnati.Text;
+            string statFalli = StatFalli.Text;
 
+            // Crea un nuovo giocatore e aggiungilo alla lista
+            Giocatore giocatore = new Giocatore(statPunti, statAssist, statRimbalziOff, statRimbalziDiff, statPalleRubate, statPallePerse, statTiriDue, statTiriTre, statTiriTotali, statTiriSegnati, statLiberiTotali, statLiberiSegnati, statFalli);
+            listaGiocatori.Add(giocatore);
+
+            // Serializza la lista in un file JSON
+            string timeStamp = DateTime.Now.ToString("yyyyMMddHHmmss");
+            string fileName = $"giocatori_{timeStamp}.json";
+            string json = JsonConvert.SerializeObject(listaGiocatori, Newtonsoft.Json.Formatting.Indented);
+            File.WriteAllText(fileName, json);
+
+            MessageBox.Show($"Lista di giocatori serializzata in {fileName}");
         }
+
         #endregion
 
-        private void Giocatore1_Click(object sender, EventArgs e)
+        private void grafico_Click(object sender, EventArgs e)
         {
-            panelgiocatore2.Visible = false;
-            panelgiocatore3.Visible = false;
-            panelgiocatore4.Visible = false;
+            panelpanel.Visible= true;  
         }
 
-        private void GIocatore2_Click(object sender, EventArgs e)
+        private void statistische_Click(object sender, EventArgs e)
         {
-            panelgiocatore2.Visible = true;
-            panelgiocatore3.Visible = false;
-            panelgiocatore4.Visible = false;
-        }
-
-        private void GIocatore3_Click(object sender, EventArgs e)
-        {
-            panelgiocatore2.Visible = false;
-            panelgiocatore4.Visible = false;
-        }
-
-        private void GIocatore4_Click(object sender, EventArgs e)
-        {
-            panelgiocatore2.Visible = false;
-            panelgiocatore3.Visible = false;
-            panelgiocatore4.Visible = true;
+            panelpanel.Visible = false;
         }
     }
 
