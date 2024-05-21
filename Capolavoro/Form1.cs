@@ -621,6 +621,11 @@ namespace Capolavoro
         }
         #endregion
 
+        #region Data visualization
+
+        //chartStat.Series["NomeSerie"].ChartType
+
+        #endregion
         /*Aggiungere pacchetto da Nuget per serializzazione Newtonsoft.Json, aggiungere riferimenti per visualizzazione grafico andando su riferimenti tasto destro aggiungi riferimenti 
          e cercare spuntarli entrambi*/
     }

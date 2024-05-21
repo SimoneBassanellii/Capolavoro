@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Punti = new System.Windows.Forms.Label();
             this.Assist = new System.Windows.Forms.Label();
             this.Rimbalzi = new System.Windows.Forms.Label();
@@ -89,6 +92,9 @@
             this.panelpanel = new System.Windows.Forms.Panel();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.chartStat = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.panelpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartStat)).BeginInit();
             this.SuspendLayout();
             // 
             // Punti
@@ -789,6 +795,7 @@
             // panelpanel
             // 
             this.panelpanel.BackColor = System.Drawing.Color.White;
+            this.panelpanel.Controls.Add(this.chartStat);
             this.panelpanel.Location = new System.Drawing.Point(241, 67);
             this.panelpanel.Name = "panelpanel";
             this.panelpanel.Size = new System.Drawing.Size(938, 538);
@@ -801,6 +808,22 @@
             // openFileDialog2
             // 
             this.openFileDialog2.FileName = "openFileDialog2";
+            // 
+            // chartStat
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartStat.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartStat.Legends.Add(legend1);
+            this.chartStat.Location = new System.Drawing.Point(39, 38);
+            this.chartStat.Name = "chartStat";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartStat.Series.Add(series1);
+            this.chartStat.Size = new System.Drawing.Size(871, 443);
+            this.chartStat.TabIndex = 0;
+            this.chartStat.Text = "chart1";
             // 
             // Duepunti
             // 
@@ -872,6 +895,8 @@
             this.Name = "Duepunti";
             this.Text = "LeBomboclat";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panelpanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chartStat)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -940,6 +965,7 @@
         private System.Windows.Forms.Panel panelpanel;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartStat;
     }
 }
 
