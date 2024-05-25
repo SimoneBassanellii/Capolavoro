@@ -632,16 +632,87 @@ namespace Capolavoro
             {
                 MessageBox.Show(openFileDialog1.FileName);
             }
+            
+            void DeserializzaFile(string fileName)
+            {
+                string json = File.ReadAllText(fileName);
 
+                listaGiocatori = JsonConvert.DeserializeObject<List<Giocatore>>(json);
+            }
 
-
+            DeserializzaFile(openFileDialog1.FileName);
+            AggiungiDatiAlGrafico();
         }
 
-        //chartStat.Series["NomeSerie"].ChartType
+        private void AggiungiDatiAlGrafico()
+        {
+            chartStat.Series.Clear();
 
+            // Crea una serie per ogni proprietà dell'oggetto Giocatore
+            var seriePunti = new Series("Punti");
+            seriePunti.ChartType = SeriesChartType.Line;
+            var serieAssist = new Series("Assist");
+            serieAssist.ChartType = SeriesChartType.Line;
+            var serieRimbalziOff = new Series("RimbalziOff");
+            serieRimbalziOff.ChartType = SeriesChartType.Line;
+            var serieRimbalziDiff = new Series("RimbalziDiff");
+            serieRimbalziDiff.ChartType = SeriesChartType.Line;
+            var seriePalleRubate = new Series("PalleRubate");
+            seriePalleRubate.ChartType = SeriesChartType.Line;
+            var seriePallePerse = new Series("PallePerse");
+            seriePallePerse.ChartType = SeriesChartType.Line;
+            var serieTiriDue = new Series("TiriDue");
+            serieTiriDue.ChartType = SeriesChartType.Line;
+            var serieTiriTre = new Series("TiriTre");
+            serieTiriTre.ChartType = SeriesChartType.Line;
+            var serieTiriTotali = new Series("TiriTotali");
+            serieTiriTotali.ChartType = SeriesChartType.Line;
+            var serieTiriSegnati = new Series("TiriSegnati");
+            serieTiriSegnati.ChartType = SeriesChartType.Line;
+            var serieLiberiTotali = new Series("LiberiTotali");
+            serieLiberiTotali.ChartType = SeriesChartType.Line;
+            var serieLiberiSegnati = new Series("LiberiSegnati");
+            serieLiberiSegnati.ChartType = SeriesChartType.Line;
+            var serieFalli = new Series("Falli");
+            serieFalli.ChartType = SeriesChartType.Line;
+
+
+            foreach (var giocatore in listaGiocatori)
+            {
+                seriePunti.Points.Add(int.Parse(giocatore.Punti));
+                serieAssist.Points.Add(int.Parse(giocatore.Punti));
+                serieRimbalziOff.Points.Add(int.Parse(giocatore.Punti));
+                serieRimbalziDiff.Points.Add(int.Parse(giocatore.Punti));
+                seriePalleRubate.Points.Add(int.Parse(giocatore.Punti));
+                seriePallePerse.Points.Add(int.Parse(giocatore.Punti));
+                serieTiriDue.Points.Add(int.Parse(giocatore.Punti));
+                serieTiriTre.Points.Add(int.Parse(giocatore.Punti));
+                serieTiriTotali.Points.Add(int.Parse(giocatore.Punti));
+                serieTiriSegnati.Points.Add(int.Parse(giocatore.Punti));
+                serieLiberiTotali.Points.Add(int.Parse(giocatore.Punti));
+                serieLiberiSegnati.Points.Add(int.Parse(giocatore.Punti));
+                serieFalli.Points.Add(int.Parse(giocatore.Punti));
+            }
+
+            chartStat.Series.Add(seriePunti);
+            chartStat.Series.Add(serieAssist);
+            chartStat.Series.Add(serieRimbalziOff);
+            chartStat.Series.Add(serieRimbalziDiff);
+            chartStat.Series.Add(seriePalleRubate);
+            chartStat.Series.Add(seriePallePerse);
+            chartStat.Series.Add(serieTiriDue);
+            chartStat.Series.Add(serieTiriTre);
+            chartStat.Series.Add(serieTiriTotali);
+            chartStat.Series.Add(serieTiriSegnati);
+            chartStat.Series.Add(serieLiberiTotali);
+            chartStat.Series.Add(serieLiberiSegnati);
+            chartStat.Series.Add(serieFalli);        
+        }
         #endregion
         /*Aggiungere pacchetto da Nuget per serializzazione Newtonsoft.Json, aggiungere riferimenti per visualizzazione grafico andando su riferimenti tasto destro aggiungi riferimenti 
          e cercare spuntarli entrambi*/
     }
+
+
 
 }

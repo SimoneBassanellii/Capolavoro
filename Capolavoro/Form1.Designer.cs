@@ -103,7 +103,7 @@
             this.Punti.BackColor = System.Drawing.Color.Transparent;
             this.Punti.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Punti.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Punti.Location = new System.Drawing.Point(236, 105);
+            this.Punti.Location = new System.Drawing.Point(17, 105);
             this.Punti.Name = "Punti";
             this.Punti.Size = new System.Drawing.Size(56, 25);
             this.Punti.TabIndex = 0;
@@ -115,7 +115,7 @@
             this.Assist.BackColor = System.Drawing.Color.Transparent;
             this.Assist.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Assist.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Assist.Location = new System.Drawing.Point(236, 142);
+            this.Assist.Location = new System.Drawing.Point(17, 142);
             this.Assist.Name = "Assist";
             this.Assist.Size = new System.Drawing.Size(65, 25);
             this.Assist.TabIndex = 1;
@@ -127,7 +127,7 @@
             this.Rimbalzi.BackColor = System.Drawing.Color.Transparent;
             this.Rimbalzi.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rimbalzi.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Rimbalzi.Location = new System.Drawing.Point(236, 200);
+            this.Rimbalzi.Location = new System.Drawing.Point(17, 200);
             this.Rimbalzi.Name = "Rimbalzi";
             this.Rimbalzi.Size = new System.Drawing.Size(85, 25);
             this.Rimbalzi.TabIndex = 2;
@@ -139,7 +139,7 @@
             this.PalleRubate.BackColor = System.Drawing.Color.Transparent;
             this.PalleRubate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PalleRubate.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.PalleRubate.Location = new System.Drawing.Point(236, 315);
+            this.PalleRubate.Location = new System.Drawing.Point(17, 315);
             this.PalleRubate.Name = "PalleRubate";
             this.PalleRubate.Size = new System.Drawing.Size(115, 25);
             this.PalleRubate.TabIndex = 3;
@@ -151,7 +151,7 @@
             this.PallePerse.BackColor = System.Drawing.Color.Transparent;
             this.PallePerse.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PallePerse.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.PallePerse.Location = new System.Drawing.Point(236, 350);
+            this.PallePerse.Location = new System.Drawing.Point(17, 350);
             this.PallePerse.Name = "PallePerse";
             this.PallePerse.Size = new System.Drawing.Size(109, 25);
             this.PallePerse.TabIndex = 4;
@@ -163,7 +163,7 @@
             this.TiriTentati.BackColor = System.Drawing.Color.Transparent;
             this.TiriTentati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TiriTentati.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TiriTentati.Location = new System.Drawing.Point(562, 139);
+            this.TiriTentati.Location = new System.Drawing.Point(343, 139);
             this.TiriTentati.Name = "TiriTentati";
             this.TiriTentati.Size = new System.Drawing.Size(117, 25);
             this.TiriTentati.TabIndex = 5;
@@ -175,7 +175,7 @@
             this.TiriSegnati.BackColor = System.Drawing.Color.Transparent;
             this.TiriSegnati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TiriSegnati.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.TiriSegnati.Location = new System.Drawing.Point(562, 232);
+            this.TiriSegnati.Location = new System.Drawing.Point(343, 232);
             this.TiriSegnati.Name = "TiriSegnati";
             this.TiriSegnati.Size = new System.Drawing.Size(107, 25);
             this.TiriSegnati.TabIndex = 6;
@@ -187,7 +187,7 @@
             this.NFalli.BackColor = System.Drawing.Color.Transparent;
             this.NFalli.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NFalli.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.NFalli.Location = new System.Drawing.Point(888, 136);
+            this.NFalli.Location = new System.Drawing.Point(669, 136);
             this.NFalli.Name = "NFalli";
             this.NFalli.Size = new System.Drawing.Size(52, 25);
             this.NFalli.TabIndex = 7;
@@ -199,7 +199,7 @@
             this.StatPunti.BackColor = System.Drawing.Color.Transparent;
             this.StatPunti.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatPunti.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatPunti.Location = new System.Drawing.Point(340, 105);
+            this.StatPunti.Location = new System.Drawing.Point(121, 105);
             this.StatPunti.Name = "StatPunti";
             this.StatPunti.Size = new System.Drawing.Size(23, 25);
             this.StatPunti.TabIndex = 9;
@@ -209,7 +209,7 @@
             // 
             this.PiuPuntiII.BackColor = System.Drawing.Color.Transparent;
             this.PiuPuntiII.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuPuntiII.Location = new System.Drawing.Point(403, 103);
+            this.PiuPuntiII.Location = new System.Drawing.Point(184, 103);
             this.PiuPuntiII.Name = "PiuPuntiII";
             this.PiuPuntiII.Size = new System.Drawing.Size(28, 27);
             this.PiuPuntiII.TabIndex = 10;
@@ -221,7 +221,7 @@
             // 
             this.PiuPuntiIII.BackColor = System.Drawing.Color.Transparent;
             this.PiuPuntiIII.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuPuntiIII.Location = new System.Drawing.Point(437, 104);
+            this.PiuPuntiIII.Location = new System.Drawing.Point(218, 104);
             this.PiuPuntiIII.Name = "PiuPuntiIII";
             this.PiuPuntiIII.Size = new System.Drawing.Size(28, 27);
             this.PiuPuntiIII.TabIndex = 11;
@@ -233,7 +233,7 @@
             // 
             this.PiuPuntiI.BackColor = System.Drawing.Color.Transparent;
             this.PiuPuntiI.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuPuntiI.Location = new System.Drawing.Point(369, 103);
+            this.PiuPuntiI.Location = new System.Drawing.Point(150, 103);
             this.PiuPuntiI.Name = "PiuPuntiI";
             this.PiuPuntiI.Size = new System.Drawing.Size(28, 27);
             this.PiuPuntiI.TabIndex = 12;
@@ -245,7 +245,7 @@
             // 
             this.MenopuntiI.BackColor = System.Drawing.Color.Transparent;
             this.MenopuntiI.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenopuntiI.Location = new System.Drawing.Point(307, 105);
+            this.MenopuntiI.Location = new System.Drawing.Point(88, 105);
             this.MenopuntiI.Name = "MenopuntiI";
             this.MenopuntiI.Size = new System.Drawing.Size(27, 25);
             this.MenopuntiI.TabIndex = 13;
@@ -259,7 +259,7 @@
             this.StatAssist.BackColor = System.Drawing.Color.Transparent;
             this.StatAssist.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatAssist.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatAssist.Location = new System.Drawing.Point(340, 142);
+            this.StatAssist.Location = new System.Drawing.Point(121, 142);
             this.StatAssist.Name = "StatAssist";
             this.StatAssist.Size = new System.Drawing.Size(23, 25);
             this.StatAssist.TabIndex = 14;
@@ -270,7 +270,7 @@
             // 
             this.MenoAssist.BackColor = System.Drawing.Color.Transparent;
             this.MenoAssist.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoAssist.Location = new System.Drawing.Point(307, 142);
+            this.MenoAssist.Location = new System.Drawing.Point(88, 142);
             this.MenoAssist.Name = "MenoAssist";
             this.MenoAssist.Size = new System.Drawing.Size(27, 25);
             this.MenoAssist.TabIndex = 15;
@@ -282,7 +282,7 @@
             // 
             this.PiuAssist.BackColor = System.Drawing.Color.Transparent;
             this.PiuAssist.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuAssist.Location = new System.Drawing.Point(369, 142);
+            this.PiuAssist.Location = new System.Drawing.Point(150, 142);
             this.PiuAssist.Name = "PiuAssist";
             this.PiuAssist.Size = new System.Drawing.Size(28, 27);
             this.PiuAssist.TabIndex = 16;
@@ -294,7 +294,7 @@
             // 
             this.MenoRimbalziOff.BackColor = System.Drawing.Color.Transparent;
             this.MenoRimbalziOff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoRimbalziOff.Location = new System.Drawing.Point(330, 235);
+            this.MenoRimbalziOff.Location = new System.Drawing.Point(111, 235);
             this.MenoRimbalziOff.Name = "MenoRimbalziOff";
             this.MenoRimbalziOff.Size = new System.Drawing.Size(27, 25);
             this.MenoRimbalziOff.TabIndex = 17;
@@ -306,7 +306,7 @@
             // 
             this.PiuRimbalziOff.BackColor = System.Drawing.Color.Transparent;
             this.PiuRimbalziOff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuRimbalziOff.Location = new System.Drawing.Point(392, 235);
+            this.PiuRimbalziOff.Location = new System.Drawing.Point(173, 235);
             this.PiuRimbalziOff.Name = "PiuRimbalziOff";
             this.PiuRimbalziOff.Size = new System.Drawing.Size(27, 25);
             this.PiuRimbalziOff.TabIndex = 18;
@@ -320,7 +320,7 @@
             this.StatRimbalziOff.BackColor = System.Drawing.Color.Transparent;
             this.StatRimbalziOff.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatRimbalziOff.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatRimbalziOff.Location = new System.Drawing.Point(363, 235);
+            this.StatRimbalziOff.Location = new System.Drawing.Point(144, 235);
             this.StatRimbalziOff.Name = "StatRimbalziOff";
             this.StatRimbalziOff.Size = new System.Drawing.Size(23, 25);
             this.StatRimbalziOff.TabIndex = 19;
@@ -332,7 +332,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(236, 235);
+            this.label1.Location = new System.Drawing.Point(17, 235);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 25);
             this.label1.TabIndex = 20;
@@ -344,7 +344,7 @@
             this.RimDiff.BackColor = System.Drawing.Color.Transparent;
             this.RimDiff.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RimDiff.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.RimDiff.Location = new System.Drawing.Point(236, 271);
+            this.RimDiff.Location = new System.Drawing.Point(17, 271);
             this.RimDiff.Name = "RimDiff";
             this.RimDiff.Size = new System.Drawing.Size(85, 25);
             this.RimDiff.TabIndex = 24;
@@ -356,7 +356,7 @@
             this.StatRimbalziDiff.BackColor = System.Drawing.Color.Transparent;
             this.StatRimbalziDiff.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatRimbalziDiff.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatRimbalziDiff.Location = new System.Drawing.Point(363, 271);
+            this.StatRimbalziDiff.Location = new System.Drawing.Point(144, 271);
             this.StatRimbalziDiff.Name = "StatRimbalziDiff";
             this.StatRimbalziDiff.Size = new System.Drawing.Size(23, 25);
             this.StatRimbalziDiff.TabIndex = 23;
@@ -366,7 +366,7 @@
             // 
             this.PiuRimbalziDiff.BackColor = System.Drawing.Color.Transparent;
             this.PiuRimbalziDiff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuRimbalziDiff.Location = new System.Drawing.Point(392, 271);
+            this.PiuRimbalziDiff.Location = new System.Drawing.Point(173, 271);
             this.PiuRimbalziDiff.Name = "PiuRimbalziDiff";
             this.PiuRimbalziDiff.Size = new System.Drawing.Size(27, 25);
             this.PiuRimbalziDiff.TabIndex = 22;
@@ -378,7 +378,7 @@
             // 
             this.MenoRimbalziDiff.BackColor = System.Drawing.Color.Transparent;
             this.MenoRimbalziDiff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoRimbalziDiff.Location = new System.Drawing.Point(330, 271);
+            this.MenoRimbalziDiff.Location = new System.Drawing.Point(111, 271);
             this.MenoRimbalziDiff.Name = "MenoRimbalziDiff";
             this.MenoRimbalziDiff.Size = new System.Drawing.Size(27, 25);
             this.MenoRimbalziDiff.TabIndex = 21;
@@ -392,7 +392,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(564, 330);
+            this.label2.Location = new System.Drawing.Point(345, 330);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 25);
             this.label2.TabIndex = 26;
@@ -404,7 +404,7 @@
             this.Tirati.BackColor = System.Drawing.Color.Transparent;
             this.Tirati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tirati.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Tirati.Location = new System.Drawing.Point(564, 305);
+            this.Tirati.Location = new System.Drawing.Point(345, 305);
             this.Tirati.Name = "Tirati";
             this.Tirati.Size = new System.Drawing.Size(55, 25);
             this.Tirati.TabIndex = 25;
@@ -416,7 +416,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(562, 102);
+            this.label4.Location = new System.Drawing.Point(343, 102);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(134, 25);
             this.label4.TabIndex = 27;
@@ -429,7 +429,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(564, 268);
+            this.label5.Location = new System.Drawing.Point(345, 268);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 25);
             this.label5.TabIndex = 28;
@@ -441,7 +441,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(564, 164);
+            this.label6.Location = new System.Drawing.Point(345, 164);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(117, 25);
             this.label6.TabIndex = 29;
@@ -450,7 +450,7 @@
             // Serializza
             // 
             this.Serializza.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Serializza.Location = new System.Drawing.Point(893, 260);
+            this.Serializza.Location = new System.Drawing.Point(674, 260);
             this.Serializza.Name = "Serializza";
             this.Serializza.Size = new System.Drawing.Size(181, 40);
             this.Serializza.TabIndex = 30;
@@ -464,7 +464,7 @@
             this.StatTiriDue.BackColor = System.Drawing.Color.Transparent;
             this.StatTiriDue.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatTiriDue.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatTiriDue.Location = new System.Drawing.Point(710, 139);
+            this.StatTiriDue.Location = new System.Drawing.Point(491, 139);
             this.StatTiriDue.Name = "StatTiriDue";
             this.StatTiriDue.Size = new System.Drawing.Size(23, 25);
             this.StatTiriDue.TabIndex = 33;
@@ -474,7 +474,7 @@
             // 
             this.PiuTiriDue.BackColor = System.Drawing.Color.Transparent;
             this.PiuTiriDue.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuTiriDue.Location = new System.Drawing.Point(739, 139);
+            this.PiuTiriDue.Location = new System.Drawing.Point(520, 139);
             this.PiuTiriDue.Name = "PiuTiriDue";
             this.PiuTiriDue.Size = new System.Drawing.Size(27, 25);
             this.PiuTiriDue.TabIndex = 32;
@@ -486,7 +486,7 @@
             // 
             this.MenoTiriDue.BackColor = System.Drawing.Color.Transparent;
             this.MenoTiriDue.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoTiriDue.Location = new System.Drawing.Point(677, 139);
+            this.MenoTiriDue.Location = new System.Drawing.Point(458, 139);
             this.MenoTiriDue.Name = "MenoTiriDue";
             this.MenoTiriDue.Size = new System.Drawing.Size(27, 25);
             this.MenoTiriDue.TabIndex = 31;
@@ -500,7 +500,7 @@
             this.StatTiriTre.BackColor = System.Drawing.Color.Transparent;
             this.StatTiriTre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatTiriTre.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatTiriTre.Location = new System.Drawing.Point(710, 167);
+            this.StatTiriTre.Location = new System.Drawing.Point(491, 167);
             this.StatTiriTre.Name = "StatTiriTre";
             this.StatTiriTre.Size = new System.Drawing.Size(23, 25);
             this.StatTiriTre.TabIndex = 36;
@@ -510,7 +510,7 @@
             // 
             this.PiuTiriTre.BackColor = System.Drawing.Color.Transparent;
             this.PiuTiriTre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuTiriTre.Location = new System.Drawing.Point(739, 167);
+            this.PiuTiriTre.Location = new System.Drawing.Point(520, 167);
             this.PiuTiriTre.Name = "PiuTiriTre";
             this.PiuTiriTre.Size = new System.Drawing.Size(27, 25);
             this.PiuTiriTre.TabIndex = 35;
@@ -522,7 +522,7 @@
             // 
             this.MenoTiriTre.BackColor = System.Drawing.Color.Transparent;
             this.MenoTiriTre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoTiriTre.Location = new System.Drawing.Point(677, 167);
+            this.MenoTiriTre.Location = new System.Drawing.Point(458, 167);
             this.MenoTiriTre.Name = "MenoTiriTre";
             this.MenoTiriTre.Size = new System.Drawing.Size(27, 25);
             this.MenoTiriTre.TabIndex = 34;
@@ -536,7 +536,7 @@
             this.StatTiriSegnati.BackColor = System.Drawing.Color.Transparent;
             this.StatTiriSegnati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatTiriSegnati.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatTiriSegnati.Location = new System.Drawing.Point(708, 230);
+            this.StatTiriSegnati.Location = new System.Drawing.Point(489, 230);
             this.StatTiriSegnati.Name = "StatTiriSegnati";
             this.StatTiriSegnati.Size = new System.Drawing.Size(23, 25);
             this.StatTiriSegnati.TabIndex = 39;
@@ -546,7 +546,7 @@
             // 
             this.PiùTiriTentati.BackColor = System.Drawing.Color.Transparent;
             this.PiùTiriTentati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiùTiriTentati.Location = new System.Drawing.Point(739, 230);
+            this.PiùTiriTentati.Location = new System.Drawing.Point(520, 230);
             this.PiùTiriTentati.Name = "PiùTiriTentati";
             this.PiùTiriTentati.Size = new System.Drawing.Size(27, 25);
             this.PiùTiriTentati.TabIndex = 38;
@@ -558,7 +558,7 @@
             // 
             this.MenoTiriTentati.BackColor = System.Drawing.Color.Transparent;
             this.MenoTiriTentati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoTiriTentati.Location = new System.Drawing.Point(675, 230);
+            this.MenoTiriTentati.Location = new System.Drawing.Point(456, 230);
             this.MenoTiriTentati.Name = "MenoTiriTentati";
             this.MenoTiriTentati.Size = new System.Drawing.Size(27, 25);
             this.MenoTiriTentati.TabIndex = 37;
@@ -572,7 +572,7 @@
             this.StatLiberiTotali.BackColor = System.Drawing.Color.Transparent;
             this.StatLiberiTotali.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatLiberiTotali.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatLiberiTotali.Location = new System.Drawing.Point(721, 304);
+            this.StatLiberiTotali.Location = new System.Drawing.Point(502, 304);
             this.StatLiberiTotali.Name = "StatLiberiTotali";
             this.StatLiberiTotali.Size = new System.Drawing.Size(23, 25);
             this.StatLiberiTotali.TabIndex = 42;
@@ -582,7 +582,7 @@
             // 
             this.PiuLiberi.BackColor = System.Drawing.Color.Transparent;
             this.PiuLiberi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuLiberi.Location = new System.Drawing.Point(750, 304);
+            this.PiuLiberi.Location = new System.Drawing.Point(531, 304);
             this.PiuLiberi.Name = "PiuLiberi";
             this.PiuLiberi.Size = new System.Drawing.Size(27, 25);
             this.PiuLiberi.TabIndex = 41;
@@ -594,7 +594,7 @@
             // 
             this.MenoLiberi.BackColor = System.Drawing.Color.Transparent;
             this.MenoLiberi.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoLiberi.Location = new System.Drawing.Point(688, 304);
+            this.MenoLiberi.Location = new System.Drawing.Point(469, 304);
             this.MenoLiberi.Name = "MenoLiberi";
             this.MenoLiberi.Size = new System.Drawing.Size(27, 25);
             this.MenoLiberi.TabIndex = 40;
@@ -608,7 +608,7 @@
             this.StatLiberiSegnati.BackColor = System.Drawing.Color.Transparent;
             this.StatLiberiSegnati.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatLiberiSegnati.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatLiberiSegnati.Location = new System.Drawing.Point(721, 335);
+            this.StatLiberiSegnati.Location = new System.Drawing.Point(502, 335);
             this.StatLiberiSegnati.Name = "StatLiberiSegnati";
             this.StatLiberiSegnati.Size = new System.Drawing.Size(23, 25);
             this.StatLiberiSegnati.TabIndex = 45;
@@ -618,7 +618,7 @@
             // 
             this.PiuLiberiSegnati.BackColor = System.Drawing.Color.Transparent;
             this.PiuLiberiSegnati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuLiberiSegnati.Location = new System.Drawing.Point(750, 335);
+            this.PiuLiberiSegnati.Location = new System.Drawing.Point(531, 335);
             this.PiuLiberiSegnati.Name = "PiuLiberiSegnati";
             this.PiuLiberiSegnati.Size = new System.Drawing.Size(27, 25);
             this.PiuLiberiSegnati.TabIndex = 44;
@@ -630,7 +630,7 @@
             // 
             this.MenoLiberiSegnati.BackColor = System.Drawing.Color.Transparent;
             this.MenoLiberiSegnati.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoLiberiSegnati.Location = new System.Drawing.Point(688, 335);
+            this.MenoLiberiSegnati.Location = new System.Drawing.Point(469, 335);
             this.MenoLiberiSegnati.Name = "MenoLiberiSegnati";
             this.MenoLiberiSegnati.Size = new System.Drawing.Size(27, 25);
             this.MenoLiberiSegnati.TabIndex = 43;
@@ -644,7 +644,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(564, 200);
+            this.label7.Location = new System.Drawing.Point(345, 200);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(84, 25);
             this.label7.TabIndex = 46;
@@ -656,7 +656,7 @@
             this.StatTiriTotali.BackColor = System.Drawing.Color.Transparent;
             this.StatTiriTotali.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatTiriTotali.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatTiriTotali.Location = new System.Drawing.Point(710, 200);
+            this.StatTiriTotali.Location = new System.Drawing.Point(491, 200);
             this.StatTiriTotali.Name = "StatTiriTotali";
             this.StatTiriTotali.Size = new System.Drawing.Size(23, 25);
             this.StatTiriTotali.TabIndex = 47;
@@ -668,7 +668,7 @@
             this.StatFalli.BackColor = System.Drawing.Color.Transparent;
             this.StatFalli.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatFalli.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatFalli.Location = new System.Drawing.Point(975, 136);
+            this.StatFalli.Location = new System.Drawing.Point(756, 136);
             this.StatFalli.Name = "StatFalli";
             this.StatFalli.Size = new System.Drawing.Size(23, 25);
             this.StatFalli.TabIndex = 50;
@@ -678,7 +678,7 @@
             // 
             this.PiuFalli.BackColor = System.Drawing.Color.Transparent;
             this.PiuFalli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiuFalli.Location = new System.Drawing.Point(1004, 136);
+            this.PiuFalli.Location = new System.Drawing.Point(785, 136);
             this.PiuFalli.Name = "PiuFalli";
             this.PiuFalli.Size = new System.Drawing.Size(27, 25);
             this.PiuFalli.TabIndex = 49;
@@ -690,7 +690,7 @@
             // 
             this.MenoFalli.BackColor = System.Drawing.Color.Transparent;
             this.MenoFalli.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoFalli.Location = new System.Drawing.Point(942, 136);
+            this.MenoFalli.Location = new System.Drawing.Point(723, 136);
             this.MenoFalli.Name = "MenoFalli";
             this.MenoFalli.Size = new System.Drawing.Size(27, 25);
             this.MenoFalli.TabIndex = 48;
@@ -704,7 +704,7 @@
             this.StatPalleRubate.BackColor = System.Drawing.Color.Transparent;
             this.StatPalleRubate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatPalleRubate.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatPalleRubate.Location = new System.Drawing.Point(390, 315);
+            this.StatPalleRubate.Location = new System.Drawing.Point(171, 315);
             this.StatPalleRubate.Name = "StatPalleRubate";
             this.StatPalleRubate.Size = new System.Drawing.Size(23, 25);
             this.StatPalleRubate.TabIndex = 53;
@@ -714,7 +714,7 @@
             // 
             this.PiùPalleRubate.BackColor = System.Drawing.Color.Transparent;
             this.PiùPalleRubate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiùPalleRubate.Location = new System.Drawing.Point(419, 315);
+            this.PiùPalleRubate.Location = new System.Drawing.Point(200, 315);
             this.PiùPalleRubate.Name = "PiùPalleRubate";
             this.PiùPalleRubate.Size = new System.Drawing.Size(27, 25);
             this.PiùPalleRubate.TabIndex = 52;
@@ -726,7 +726,7 @@
             // 
             this.MenoPalleRubate.BackColor = System.Drawing.Color.Transparent;
             this.MenoPalleRubate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoPalleRubate.Location = new System.Drawing.Point(357, 315);
+            this.MenoPalleRubate.Location = new System.Drawing.Point(138, 315);
             this.MenoPalleRubate.Name = "MenoPalleRubate";
             this.MenoPalleRubate.Size = new System.Drawing.Size(27, 25);
             this.MenoPalleRubate.TabIndex = 51;
@@ -740,7 +740,7 @@
             this.StatPallePerse.BackColor = System.Drawing.Color.Transparent;
             this.StatPallePerse.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatPallePerse.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.StatPallePerse.Location = new System.Drawing.Point(390, 350);
+            this.StatPallePerse.Location = new System.Drawing.Point(171, 350);
             this.StatPallePerse.Name = "StatPallePerse";
             this.StatPallePerse.Size = new System.Drawing.Size(23, 25);
             this.StatPallePerse.TabIndex = 56;
@@ -750,7 +750,7 @@
             // 
             this.PiùPallePerse.BackColor = System.Drawing.Color.Transparent;
             this.PiùPallePerse.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.PiùPallePerse.Location = new System.Drawing.Point(419, 350);
+            this.PiùPallePerse.Location = new System.Drawing.Point(200, 350);
             this.PiùPallePerse.Name = "PiùPallePerse";
             this.PiùPallePerse.Size = new System.Drawing.Size(27, 25);
             this.PiùPallePerse.TabIndex = 55;
@@ -762,7 +762,7 @@
             // 
             this.MenoPallePerse.BackColor = System.Drawing.Color.Transparent;
             this.MenoPallePerse.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MenoPallePerse.Location = new System.Drawing.Point(357, 350);
+            this.MenoPallePerse.Location = new System.Drawing.Point(138, 350);
             this.MenoPallePerse.Name = "MenoPallePerse";
             this.MenoPallePerse.Size = new System.Drawing.Size(27, 25);
             this.MenoPallePerse.TabIndex = 54;
@@ -773,7 +773,7 @@
             // statistische
             // 
             this.statistische.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
-            this.statistische.Location = new System.Drawing.Point(241, 12);
+            this.statistische.Location = new System.Drawing.Point(22, 12);
             this.statistische.Name = "statistische";
             this.statistische.Size = new System.Drawing.Size(452, 49);
             this.statistische.TabIndex = 57;
@@ -784,7 +784,7 @@
             // grafico
             // 
             this.grafico.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
-            this.grafico.Location = new System.Drawing.Point(718, 12);
+            this.grafico.Location = new System.Drawing.Point(507, 12);
             this.grafico.Name = "grafico";
             this.grafico.Size = new System.Drawing.Size(452, 49);
             this.grafico.TabIndex = 58;
@@ -797,7 +797,7 @@
             this.panelpanel.BackColor = System.Drawing.Color.White;
             this.panelpanel.Controls.Add(this.caricafile);
             this.panelpanel.Controls.Add(this.chartStat);
-            this.panelpanel.Location = new System.Drawing.Point(241, 67);
+            this.panelpanel.Location = new System.Drawing.Point(22, 67);
             this.panelpanel.Name = "panelpanel";
             this.panelpanel.Size = new System.Drawing.Size(938, 538);
             this.panelpanel.TabIndex = 59;
@@ -818,13 +818,13 @@
             this.chartStat.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chartStat.Legends.Add(legend1);
-            this.chartStat.Location = new System.Drawing.Point(44, 3);
+            this.chartStat.Location = new System.Drawing.Point(0, 6);
             this.chartStat.Name = "chartStat";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chartStat.Series.Add(series1);
-            this.chartStat.Size = new System.Drawing.Size(871, 443);
+            this.chartStat.Size = new System.Drawing.Size(938, 440);
             this.chartStat.TabIndex = 0;
             this.chartStat.Text = "chart1";
             // 
@@ -836,9 +836,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightGreen;
+            this.BackColor = System.Drawing.Color.LightSlateGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1182, 604);
+            this.ClientSize = new System.Drawing.Size(975, 603);
             this.Controls.Add(this.panelpanel);
             this.Controls.Add(this.grafico);
             this.Controls.Add(this.statistische);
