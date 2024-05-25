@@ -619,9 +619,23 @@ namespace Capolavoro
         {
             panelpanel.Visible = false;
         }
+
         #endregion
 
         #region Data visualization
+
+        private void caricafile_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Filter = "File JSON (*.json)|*.json|Tutti i file (*.*)|*.*";
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK) 
+            {
+                MessageBox.Show(openFileDialog1.FileName);
+            }
+
+
+
+        }
 
         //chartStat.Series["NomeSerie"].ChartType
 

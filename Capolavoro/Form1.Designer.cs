@@ -90,9 +90,9 @@
             this.statistische = new System.Windows.Forms.Button();
             this.grafico = new System.Windows.Forms.Button();
             this.panelpanel = new System.Windows.Forms.Panel();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.caricafile = new System.Windows.Forms.Button();
             this.chartStat = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panelpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartStat)).BeginInit();
             this.SuspendLayout();
@@ -795,19 +795,22 @@
             // panelpanel
             // 
             this.panelpanel.BackColor = System.Drawing.Color.White;
+            this.panelpanel.Controls.Add(this.caricafile);
             this.panelpanel.Controls.Add(this.chartStat);
             this.panelpanel.Location = new System.Drawing.Point(241, 67);
             this.panelpanel.Name = "panelpanel";
             this.panelpanel.Size = new System.Drawing.Size(938, 538);
             this.panelpanel.TabIndex = 59;
             // 
-            // openFileDialog1
+            // caricafile
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // openFileDialog2
-            // 
-            this.openFileDialog2.FileName = "openFileDialog2";
+            this.caricafile.Location = new System.Drawing.Point(428, 452);
+            this.caricafile.Name = "caricafile";
+            this.caricafile.Size = new System.Drawing.Size(97, 39);
+            this.caricafile.TabIndex = 1;
+            this.caricafile.Text = "Carica file ";
+            this.caricafile.UseVisualStyleBackColor = true;
+            this.caricafile.Click += new System.EventHandler(this.caricafile_Click);
             // 
             // chartStat
             // 
@@ -815,7 +818,7 @@
             this.chartStat.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chartStat.Legends.Add(legend1);
-            this.chartStat.Location = new System.Drawing.Point(39, 38);
+            this.chartStat.Location = new System.Drawing.Point(44, 3);
             this.chartStat.Name = "chartStat";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
@@ -824,6 +827,10 @@
             this.chartStat.Size = new System.Drawing.Size(871, 443);
             this.chartStat.TabIndex = 0;
             this.chartStat.Text = "chart1";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // Duepunti
             // 
@@ -963,9 +970,9 @@
         private System.Windows.Forms.Button statistische;
         private System.Windows.Forms.Button grafico;
         private System.Windows.Forms.Panel panelpanel;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.OpenFileDialog openFileDialog2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartStat;
+        private System.Windows.Forms.Button caricafile;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
