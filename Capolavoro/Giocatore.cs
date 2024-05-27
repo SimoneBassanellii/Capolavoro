@@ -20,7 +20,7 @@ namespace Capolavoro
         private string _tirisegnati;
         private string _tiriliberitentati;
         private string _tiriliberiseganti;
-        private string _fallisubiti;
+        private string _fallifatti;
 
         public string Punti
         {
@@ -94,10 +94,10 @@ namespace Capolavoro
             set => _tiriliberiseganti = value;
         }
 
-        public string FalliSubiti
+        public string FalliFatti
         {
-            get => _fallisubiti;
-            set => _fallisubiti = value;
+            get => _fallifatti;
+            set => _fallifatti = value;
         }
 
         public Giocatore()
@@ -114,7 +114,7 @@ namespace Capolavoro
             TiriSegnati = "";
             TiriLiberiTentati = "";
             TiriLiberiSegnati = "";
-            FalliSubiti = "";
+            FalliFatti = "";
         }
 
         public Giocatore(string punti, string assist, string rimbalziOffensivi, string rimbalziDifensivi, string palleRubate, string pallePerse, string tiriTentati2, string tiriTentati3, string tiriTotali, string tiriSegnati, string tiriLiberiTentati, string tiriLiberiSegnati, string falliSubiti)
@@ -131,7 +131,7 @@ namespace Capolavoro
             TiriSegnati = tiriSegnati;
             TiriLiberiTentati = tiriLiberiTentati;
             TiriLiberiSegnati = tiriLiberiSegnati;
-            FalliSubiti = falliSubiti;
+            FalliFatti = falliSubiti;
         }
 
     }

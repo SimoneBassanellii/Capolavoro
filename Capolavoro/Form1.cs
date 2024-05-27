@@ -21,10 +21,6 @@ namespace Capolavoro
         public Duepunti()
         {
             InitializeComponent();
-            //Duepunti form2= new Duepunti();
-            //form2.Focus();
-            //form2.Show();
-         
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -653,45 +649,46 @@ namespace Capolavoro
             seriePunti.ChartType = SeriesChartType.Line;
             var serieAssist = new Series("Assist");
             serieAssist.ChartType = SeriesChartType.Line;
-            var serieRimbalziOff = new Series("RimbalziOff");
+            var serieRimbalziOff = new Series("Rimbalzi offensivi");
             serieRimbalziOff.ChartType = SeriesChartType.Line;
-            var serieRimbalziDiff = new Series("RimbalziDiff");
+            var serieRimbalziDiff = new Series("Rimbalzi diffensivi");
             serieRimbalziDiff.ChartType = SeriesChartType.Line;
-            var seriePalleRubate = new Series("PalleRubate");
+            var seriePalleRubate = new Series("Palle rubate");
             seriePalleRubate.ChartType = SeriesChartType.Line;
-            var seriePallePerse = new Series("PallePerse");
+            var seriePallePerse = new Series("Palle perse");
             seriePallePerse.ChartType = SeriesChartType.Line;
-            var serieTiriDue = new Series("TiriDue");
+            var serieTiriDue = new Series("Tiri due");
             serieTiriDue.ChartType = SeriesChartType.Line;
-            var serieTiriTre = new Series("TiriTre");
+            var serieTiriTre = new Series("Tiri tre");
             serieTiriTre.ChartType = SeriesChartType.Line;
-            var serieTiriTotali = new Series("TiriTotali");
+            var serieTiriTotali = new Series("Tiri totali");
             serieTiriTotali.ChartType = SeriesChartType.Line;
-            var serieTiriSegnati = new Series("TiriSegnati");
+            var serieTiriSegnati = new Series("Tiri segnati");
             serieTiriSegnati.ChartType = SeriesChartType.Line;
-            var serieLiberiTotali = new Series("LiberiTotali");
+            var serieLiberiTotali = new Series("Liberi totali");
             serieLiberiTotali.ChartType = SeriesChartType.Line;
-            var serieLiberiSegnati = new Series("LiberiSegnati");
+            var serieLiberiSegnati = new Series("Liberi segnati");
             serieLiberiSegnati.ChartType = SeriesChartType.Line;
-            var serieFalli = new Series("Falli");
+            var serieFalli = new Series("Falli fatti");
             serieFalli.ChartType = SeriesChartType.Line;
 
 
             foreach (var giocatore in listaGiocatori)
             {
                 seriePunti.Points.Add(int.Parse(giocatore.Punti));
-                serieAssist.Points.Add(int.Parse(giocatore.Punti));
-                serieRimbalziOff.Points.Add(int.Parse(giocatore.Punti));
-                serieRimbalziDiff.Points.Add(int.Parse(giocatore.Punti));
-                seriePalleRubate.Points.Add(int.Parse(giocatore.Punti));
-                seriePallePerse.Points.Add(int.Parse(giocatore.Punti));
-                serieTiriDue.Points.Add(int.Parse(giocatore.Punti));
-                serieTiriTre.Points.Add(int.Parse(giocatore.Punti));
-                serieTiriTotali.Points.Add(int.Parse(giocatore.Punti));
-                serieTiriSegnati.Points.Add(int.Parse(giocatore.Punti));
-                serieLiberiTotali.Points.Add(int.Parse(giocatore.Punti));
-                serieLiberiSegnati.Points.Add(int.Parse(giocatore.Punti));
-                serieFalli.Points.Add(int.Parse(giocatore.Punti));
+                serieAssist.Points.Add(int.Parse(giocatore.Assist));
+                serieRimbalziOff.Points.Add(int.Parse(giocatore.RimbalziOffensivi));
+                serieRimbalziDiff.Points.Add(int.Parse(giocatore.RimbalziDifensivi));
+                seriePalleRubate.Points.Add(int.Parse(giocatore.PalleRubate));
+                seriePallePerse.Points.Add(int.Parse(giocatore.PallePerse));
+                serieTiriDue.Points.Add(int.Parse(giocatore.TirTentati2));
+                serieTiriTre.Points.Add(int.Parse(giocatore.TiriTentati3));
+                serieTiriTotali.Points.Add(int.Parse(giocatore.TiriTotali));
+                serieTiriSegnati.Points.Add(int.Parse(giocatore.TiriSegnati));
+                serieLiberiTotali.Points.Add(int.Parse(giocatore.TiriLiberiTentati));
+                serieLiberiSegnati.Points.Add(int.Parse(giocatore.TiriLiberiSegnati));
+                serieFalli.Points.Add(int.Parse(giocatore.FalliFatti));
+                
             }
 
             chartStat.Series.Add(seriePunti);
